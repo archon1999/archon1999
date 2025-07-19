@@ -135,10 +135,10 @@
 
 # Где меня найти?
 
-<a target="_blank" href="https://t.me/NaZaR_IO/">
+<a target="_blank" href="https://t.me/archon1999/">
   <img align="left" alt="Telegram" width="100px" src="https://img.shields.io/badge/Telegram-445f9d?style=for-the-badge&logo=Telegram&logoColor=white"/>
 </a>
 
-<a target="_blank" href="https://codeforces.com/profile/NaZaR.IO">
-  <img align="left" alt="Codeforces" src="https://cp-logo.vercel.app/codeforces/NaZaR.IO" />
+<a target="_blank" href="https://codeforces.com/profile/Odminbey">
+  <img align="left" alt="Codeforces" src="https://cp-logo.vercel.app/codeforces/Odminbey" />
 </a>

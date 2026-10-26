@@ -54,9 +54,11 @@ Ishlar modulli React interfeysi, Django servislari, real vaqt rejimidagi musobaq
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Public source languages" width="49%"></picture>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="GitHub contribution activity" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" alt="GitHub contribution streaks — Asia/Tashkent" width="100%"></picture>
 
-<sub>Grafiklar GitHub va Codeforces ma’lumotlaridan har kuni yangilanadi. Til ulushlari ochiq kod hajmini bildiradi. Contribution soniga yopiq loyihalardagi faoliyat soni ham kirishi mumkin. [Grafiklar qanday yaratiladi](PROFILE-ASSETS.md).</sub>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="GitHub contribution calendar" width="100%"></picture>
+
+<sub>GitHub Readme Stats + Streak Stats har kuni GitHub Actions orqali yangilanadi. Tillar ochiq repozitoriylardagi kod hajmini bildiradi; kalendarga yopiq loyihalardagi faoliyat soni ham kirishi mumkin. Streak sanalari: Asia/Tashkent. [Vositalar va ma’lumotlar](PROFILE-ASSETS.md).</sub>
 
 ## Sport dasturlash
 

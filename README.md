@@ -54,9 +54,11 @@ I also contributed to the **IOI 2026 technical environment**, including contesta
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages across public source repositories" width="49%"></picture>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="Weekly GitHub contribution activity" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" alt="GitHub contribution streaks — Asia/Tashkent" width="100%"></picture>
 
-<sub>Charts update daily from GitHub and Codeforces. Language shares measure public source bytes, not skill levels. Contribution totals may include private activity counts. [How the charts are built](PROFILE-ASSETS.md).</sub>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="GitHub contribution calendar" width="100%"></picture>
+
+<sub>GitHub Readme Stats + Streak Stats, refreshed daily by GitHub Actions. Languages measure public repository bytes; the calendar can include restricted activity counts. Streak dates use Asia/Tashkent. [Tools and data scope](PROFILE-ASSETS.md).</sub>
 
 ## Competitive programming
 

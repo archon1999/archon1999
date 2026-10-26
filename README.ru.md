@@ -54,9 +54,11 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Public source languages" width="49%"></picture>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="GitHub contribution activity" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" alt="GitHub contribution streaks — Asia/Tashkent" width="100%"></picture>
 
-<sub>Графики ежедневно обновляются по данным GitHub и Codeforces. Доли языков показывают объём открытого кода. Contributions могут включать количество действий в закрытых проектах. [Как построены графики](PROFILE-ASSETS.md).</sub>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="GitHub contribution calendar" width="100%"></picture>
+
+<sub>GitHub Readme Stats + Streak Stats обновляются ежедневно через GitHub Actions. Языки отражают объём открытых репозиториев; календарь может включать количество действий в закрытых проектах. Часовой пояс streak: Asia/Tashkent. [Инструменты и данные](PROFILE-ASSETS.md).</sub>
 
 ## Спортивное программирование
 

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-labelledby="title desc">
+  <title id="title">Nazarbek Baltabaev. From algorithms to products.</title>
+  <desc id="desc">A restrained charcoal engineering banner with warm orange accents and an original graph diagram.</desc>
+  <rect width="1200" height="330" rx="12" fill="#090a0b"/>
+  <g stroke="#222629" stroke-width=".7" opacity=".45"><path d="M810 0v330"/><path d="M850 0v330"/><path d="M890 0v330"/><path d="M930 0v330"/><path d="M970 0v330"/><path d="M1010 0v330"/><path d="M1050 0v330"/><path d="M1090 0v330"/><path d="M1130 0v330"/><path d="M1170 0v330"/><path d="M810 10h390"/><path d="M810 50h390"/><path d="M810 90h390"/><path d="M810 130h390"/><path d="M810 170h390"/><path d="M810 210h390"/><path d="M810 250h390"/><path d="M810 290h390"/><path d="M810 330h390"/></g>
+  <path d="M810 28v274" stroke="#292d30"/>
+  <rect x="54" y="40" width="7" height="7" fill="#ff6b3d"/>
+  <text x="74" y="48" fill="#b2b3b1" font-family="monospace" font-size="12" letter-spacing="2">NAZARBEK / ENGINEERING</text>
+  <g fill="#f2f0ed" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">
+    <text x="52" y="138">Nazarbek</text>
+    <text x="52" y="204">Baltabaev.</text>
+  </g>
+  <text x="56" y="257" fill="#a2a6a8" font-family="Arial, Helvetica, sans-serif" font-size="17">From algorithms to products.</text>
+  <path d="M56 289h62" stroke="#ff6b3d" stroke-width="2"/>
+  <text x="135" y="294" fill="#747b7f" font-family="monospace" font-size="10" letter-spacing="2">NAZARBEK BALTABAEV / 00</text>
+  <g fill="none" stroke="#363a3e" stroke-width="1.5"><path d="M860 115 995 75 1105 135 1080 238 936 263 860 115M995 75 1005 177 860 115M1005 177 1105 135M1005 177 1080 238M1005 177 936 263"/><path stroke="#ff6b3d" d="M860 115 1005 177 1080 238"/></g><g fill="#090a0b" stroke="#64686b" stroke-width="1.5"><circle cx="860" cy="115" r="8"/><circle cx="995" cy="75" r="8"/><circle cx="1105" cy="135" r="8"/><circle cx="1080" cy="238" r="8"/><circle cx="936" cy="263" r="8"/></g><circle cx="1005" cy="177" r="12" fill="#ff6b3d"/><circle cx="1005" cy="177" r="24" fill="none" stroke="#ff6b3d" opacity=".25"/>
+</svg>

@@ -1,5 +1,11 @@
 ![Nazarbek Baltabaev — algoritmlardan mahsulotlargacha](assets/banner.svg)
 
+<p align="center">
+  <a href="https://new.contest.yandex.com/contests/86107/leaderboard"><img src="assets/badge-yandex.svg" height="32" alt="Yandex Cup 2025 — Frontend 1st place"></a>
+  <a href="https://codeforces.com/profile/Odminbey"><img src="assets/badge-codeforces.svg" height="32" alt="Codeforces Master — peak 2157"></a>
+  <a href="https://kep.uz/"><img src="assets/badge-kep.svg" height="32" alt="KEP.uz founder and full-stack engineer"></a>
+</p>
+
 [English](README.md) · [O‘zbekcha](README.uz.md) · [Русский](README.ru.md)
 
 # Nazarbek Baltabaev
@@ -34,7 +40,24 @@ Ishlar modulli React interfeysi, Django servislari, real vaqt rejimidagi musobaq
 
 **IOI 2026 texnik muhiti**ga, jumladan ishtirokchilar uchun Linux tizimini tayyorlash va debugger ishonchliligiga hissa qo‘shganman. **Uzinfocom**da energiya monitoringi va billing tizimlari interfeyslari ustida ishlaganman. Hozirgi mustaqil loyihalarim orasida interaktiv ilmiy ta’lim platformasi — **KEPScience** ham bor.
 
+## Texnologiyalarim
+
+![React, TypeScript, Python, Django, Go and engineering tools](assets/toolkit.svg)
+
+## GitHub faoliyatim
+
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg"><img src="assets/github-stats-light.svg" alt="GitHub statistics" width="49%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Public source languages" width="49%"></picture>
+</p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="GitHub contribution activity" width="100%"></picture>
+
+<sub>Grafiklar GitHub va Codeforces ma’lumotlaridan har kuni yangilanadi. Til ulushlari ochiq kod hajmini bildiradi. Contribution soniga yopiq loyihalardagi faoliyat soni ham kirishi mumkin. [Grafiklar qanday yaratiladi](PROFILE-ASSETS.md).</sub>
+
 ## Sport dasturlash
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/codeforces-dark.svg"><img src="assets/codeforces-light.svg" alt="Odminbey — Codeforces rating history" width="100%"></picture>
 
 | Natija | Manba |
 | --- | --- |

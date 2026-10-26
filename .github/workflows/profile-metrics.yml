@@ -1,0 +1,44 @@
+name: Refresh profile charts
+
+on:
+  schedule:
+    - cron: '37 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_metrics.py
+      - .github/workflows/profile-metrics.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-charts
+  cancel-in-progress: false
+
+jobs:
+  charts:
+    if: github.repository == 'archon1999/archon1999'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the profile
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Render GitHub and Codeforces charts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_metrics.py
+      - name: Save refreshed SVGs
+        run: |
+          git add assets/*-dark.svg assets/*-light.svg data/metrics.json
+          if git diff --cached --quiet; then
+            echo "The profile charts are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile statistics"
+          git push

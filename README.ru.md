@@ -1,5 +1,11 @@
 ![Назарбек Балтабаев — от алгоритмов к продуктам](assets/banner.svg)
 
+<p align="center">
+  <a href="https://new.contest.yandex.com/contests/86107/leaderboard"><img src="assets/badge-yandex.svg" height="32" alt="Yandex Cup 2025 — Frontend 1st place"></a>
+  <a href="https://codeforces.com/profile/Odminbey"><img src="assets/badge-codeforces.svg" height="32" alt="Codeforces Master — peak 2157"></a>
+  <a href="https://kep.uz/"><img src="assets/badge-kep.svg" height="32" alt="KEP.uz founder and full-stack engineer"></a>
+</p>
+
 [English](README.md) · [O‘zbekcha](README.uz.md) · [Русский](README.ru.md)
 
 # Назарбек Балтабаев
@@ -34,7 +40,24 @@
 
 Я также участвовал в подготовке **технической среды IOI 2026**, включая настройку Linux для участников и надёжную работу отладчиков. В **Uzinfocom** работал над интерфейсами корпоративных систем энергомониторинга и биллинга. Среди моих текущих независимых проектов — **KEPScience**, интерактивная платформа для изучения науки.
 
+## Мои инструменты
+
+![React, TypeScript, Python, Django, Go and engineering tools](assets/toolkit.svg)
+
+## Активность на GitHub
+
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg"><img src="assets/github-stats-light.svg" alt="GitHub statistics" width="49%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Public source languages" width="49%"></picture>
+</p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="GitHub contribution activity" width="100%"></picture>
+
+<sub>Графики ежедневно обновляются по данным GitHub и Codeforces. Доли языков показывают объём открытого кода. Contributions могут включать количество действий в закрытых проектах. [Как построены графики](PROFILE-ASSETS.md).</sub>
+
 ## Спортивное программирование
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/codeforces-dark.svg"><img src="assets/codeforces-light.svg" alt="Odminbey — Codeforces rating history" width="100%"></picture>
 
 | Результат | Источник |
 | --- | --- |

@@ -1,5 +1,11 @@
 ![Nazarbek Baltabaev — engineering from algorithms to products](assets/banner.svg)
 
+<p align="center">
+  <a href="https://new.contest.yandex.com/contests/86107/leaderboard"><img src="assets/badge-yandex.svg" height="32" alt="Yandex Cup 2025 — Frontend 1st place"></a>
+  <a href="https://codeforces.com/profile/Odminbey"><img src="assets/badge-codeforces.svg" height="32" alt="Codeforces Master — peak 2157"></a>
+  <a href="https://kep.uz/"><img src="assets/badge-kep.svg" height="32" alt="KEP.uz founder and full-stack engineer"></a>
+</p>
+
 [English](README.md) · [O‘zbekcha](README.uz.md) · [Русский](README.ru.md)
 
 # Nazarbek Baltabaev
@@ -34,7 +40,24 @@ The work spans a modular React client, Django services, real-time competition ex
 
 I also contributed to the **IOI 2026 technical environment**, including contestant Linux provisioning and debugger reliability, and worked on enterprise energy monitoring and billing interfaces at **Uzinfocom**. My current independent projects include **KEPScience**, an interactive science learning platform.
 
+## The toolkit
+
+![React, TypeScript, Angular, MUI, Python, Django, FastAPI, Go, PostgreSQL, Redis, Docker, Linux, Git, C++](assets/toolkit.svg)
+
+## GitHub activity
+
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg"><img src="assets/github-stats-light.svg" alt="GitHub statistics" width="49%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages across public source repositories" width="49%"></picture>
+</p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="Weekly GitHub contribution activity" width="100%"></picture>
+
+<sub>Charts update daily from GitHub and Codeforces. Language shares measure public source bytes, not skill levels. Contribution totals may include private activity counts. [How the charts are built](PROFILE-ASSETS.md).</sub>
+
 ## Competitive programming
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/codeforces-dark.svg"><img src="assets/codeforces-light.svg" alt="Codeforces rating history for Odminbey" width="100%"></picture>
 
 | Result | Evidence |
 | --- | --- |

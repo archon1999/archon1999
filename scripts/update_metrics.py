@@ -1,4 +1,4 @@
-"""Build self-hosted profile charts from GitHub and Codeforces public APIs.
+"""Build GitHub contribution calendars and Codeforces charts from public APIs.
 
 Only public original repositories are enumerated. Contribution calendars can
 include restricted/private contribution COUNTS exposed by GitHub; no private
@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import argparse
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html import escape
 import json
 import math
@@ -30,14 +30,15 @@ QUERY = """query($login:String!, $cursor:String) {
    startedAt endedAt totalCommitContributions totalIssueContributions
    totalPullRequestContributions totalPullRequestReviewContributions
    restrictedContributionsCount
-   contributionCalendar {totalContributions weeks {contributionDays {date contributionCount weekday}}}
+   contributionCalendar {totalContributions weeks {contributionDays {date contributionCount contributionLevel weekday}}}
   }
  }
 }"""
 PALETTES = {
- "dark": dict(bg="#0B1019", surface="#101925", line="#263A48", text="#E9F0ED", muted="#829DAD", accent="#ACDCD8", cream="#E2D19E", faint="#152631"),
- "light": dict(bg="#F8FAF5", surface="#EEF3ED", line="#CFDDD7", text="#24404A", muted="#6B8792", accent="#387E86", cream="#AE914E", faint="#E4EEE8"),
+ "dark": dict(bg="#0d1117", line="#30363d", text="#e6edf3", muted="#8b949e", accent="#3fb950", purple="#a371f7", levels=["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]),
+ "light": dict(bg="#ffffff", line="#d1d9e0", text="#1f2328", muted="#59636e", accent="#1a7f37", purple="#8250df", levels=["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"]),
 }
+LEVELS = {name: i for i, name in enumerate(["NONE", "FIRST_QUARTILE", "SECOND_QUARTILE", "THIRD_QUARTILE", "FOURTH_QUARTILE"])}
 
 def request_json(url, payload=None, token=None):
     headers={"Accept":"application/vnd.github+json", "User-Agent":"archon1999-profile-charts"}
@@ -95,61 +96,41 @@ def text(x,y,value,size=12,color=None,anchor=None,weight=None):
 def svg(width,height,title,description,body,p):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
 <title id="title">{escape(title)}</title><desc id="desc">{escape(description)}</desc>
-<defs><linearGradient id="accent"><stop stop-color="{p['cream']}"/><stop offset="1" stop-color="{p['accent']}"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="{p['accent']}" stop-opacity=".25"/><stop offset="1" stop-color="{p['accent']}" stop-opacity="0"/></linearGradient></defs>
-<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="10" fill="{p['bg']}" stroke="{p['line']}"/>
-<path d="M25 1h{width-50}" stroke="url(#accent)" opacity=".6"/>
-<g font-family="Arial,Helvetica,sans-serif" fill="{p['text']}">{body}</g></svg>'''
-
-def overview(d,p):
-    body=text(26,34,"GitHub / by the numbers",17,weight=500)+text(26,56,"A rolling year of building.",10,p["muted"])
-    labels=[("CONTRIBUTIONS",d["contributions"]),("PUBLIC REPOSITORIES",d["repositories"]),("REPOSITORY STARS",d["stars"]),("FOLLOWERS",d["followers"])]
-    for i,(label,value) in enumerate(labels):
-        x=26+(i%2)*239;y=92+(i//2)*78
-        body+=text(x,y,label,8,p["muted"])+text(x,y+35,f"{value:,}",32,p["accent"])
-    body+=f'<path d="M26 231h448" stroke="{p["line"]}"/>'
-    body+=text(26,251,f'{d["activeDays"]} active days  /  API snapshot {d["updatedUtc"]}',9,p["muted"])
-    return svg(500,270,"GitHub statistics",f'{d["contributions"]} contributions, {d["repositories"]} public original repositories, {d["stars"]} repository stars and {d["followers"]} followers. Contribution counts can include private activity.',body,p)
-
-def language_chart(d,p):
-    pairs=list(d["languages"].items());top=pairs[:5];remaining=sum(v for _,v in pairs[5:])
-    if remaining: top.append(("Other",remaining))
-    total=sum(v for _,v in top)
-    if total<=0: raise ValueError("No language bytes available")
-    colors=[p["accent"],p["cream"],"#6F9FAE","#557A98","#8C9CA8",p["line"]]
-    body=text(26,34,"Languages / public source",17,weight=500)+text(26,56,"Repository bytes, not skill percentages.",10,p["muted"])
-    radius=61;circ=2*math.pi*radius;offset=0
-    body+=f'<circle cx="112" cy="151" r="{radius}" fill="none" stroke="{p["faint"]}" stroke-width="18"/>'
-    for i,(name,value) in enumerate(top):
-        length=value/total*circ
-        body+=f'<circle cx="112" cy="151" r="{radius}" fill="none" stroke="{colors[i]}" stroke-width="18" stroke-dasharray="{max(0,length-2):.2f} {circ:.2f}" stroke-dashoffset="{-offset:.2f}" transform="rotate(-90 112 151)"/>'
-        offset+=length
-        y=98+i*25
-        body+=f'<rect x="225" y="{y-7}" width="6" height="6" rx="1" fill="{colors[i]}"/>'
-        body+=text(241,y,name,11,p["text"])+text(472,y,f'{value/total:.1%}',10,p["muted"],"end")
-    body+=text(112,148,"LANGUAGES",8,p["muted"],"middle")+text(112,169,str(len(pairs)),22,p["text"],"middle")
-    body+=text(26,251,"Original public repos · archived repos excluded",9,p["muted"])
-    return svg(500,270,"Programming languages",", ".join(f'{n}: {v/total:.1%}' for n,v in top)+". GitHub language bytes from public original non-archived repositories.",body,p)
+<defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="{p['purple']}" stop-opacity=".16"/><stop offset="1" stop-color="{p['purple']}" stop-opacity="0"/></linearGradient></defs>
+<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="6" fill="{p['bg']}" stroke="{p['line']}"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" fill="{p['text']}">{body}</g></svg>'''
 
 def activity_chart(d,p):
-    weeks=defaultdict(int)
-    for day in d["days"]:
-        date=datetime.fromisoformat(day["date"]).date();year,week,_=date.isocalendar()
-        weeks[(year,week)]+=day["contributionCount"]
-    values=list(weeks.values());maximum=max(max(values),1)
-    x0,y0,w,h=42,90,916,136
-    points=[(x0+i*w/max(1,len(values)-1),y0+h-v/maximum*h) for i,v in enumerate(values)]
-    path="M"+" L".join(f"{x:.2f} {y:.2f}" for x,y in points)
-    body=text(30,35,"Contribution activity",18,weight=500)+text(30,58,"Weekly contributions · last 12 months",11,p["muted"])
-    body+=text(965,37,f'{d["contributions"]:,} contributions',13,p["accent"],"end")
-    for i in range(4):
-        y=y0+i*h/3;body+=f'<path d="M{x0} {y:.2f}h{w}" stroke="{p["line"]}" stroke-dasharray="3 6" opacity=".65"/>'
-    body+=f'<path d="{path} L{x0+w} {y0+h} L{x0} {y0+h} Z" fill="url(#area)"/>'
-    body+=f'<path d="{path}" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round"/>'
-    for i in [0,len(points)-1]:
-        x,y=points[i];body+=f'<circle cx="{x:.2f}" cy="{y:.2f}" r="3" fill="{p["accent"]}"/>'
-    body+=text(42,249,d["days"][0]["date"],9,p["muted"])+text(958,249,d["days"][-1]["date"],9,p["muted"],"end")
-    body+=text(30,282,"GitHub counts can include private activity. No private repository details are collected.",9,p["muted"])
-    return svg(1000,300,"Contribution activity by week","Rolling year of weekly contribution counts reported by GitHub. Counts can include private activity. Updated "+d["updatedUtc"],body,p)
+    days=d["days"]
+    first=datetime.fromisoformat(days[0]["date"]).date()
+    start=first-timedelta(days=int(days[0]["weekday"]))
+    body=text(30,36,f'{d["contributions"]:,} contributions in the last year',18,weight=600)
+    body+=text(970,36,f'{d["activeDays"]} active days',12,p["muted"],"end")
+    x0,y0,step,size=61,78,17,13
+    months=set()
+    for day in days:
+        date=datetime.fromisoformat(day["date"]).date()
+        week=(date-start).days//7
+        x=x0+week*step; y=y0+int(day["weekday"])*step
+        month=(date.year,date.month)
+        if month not in months:
+            # A partial first month needs room before the next month label.
+            if week>1 or date.day<24:
+                body+=text(x,65,date.strftime("%b"),10,p["muted"])
+            months.add(month)
+        level=LEVELS[day["contributionLevel"]]
+        count=day["contributionCount"]
+        label=f'{count} contributions on {day["date"]}'
+        body+=f'<rect x="{x}" y="{y}" width="{size}" height="{size}" rx="2" fill="{p["levels"][level]}" stroke="{p["line"]}" stroke-opacity=".2"><title>{escape(label)}</title></rect>'
+    for weekday,label in [(1,"Mon"),(3,"Wed"),(5,"Fri")]:
+        body+=text(27,y0+weekday*step+10,label,10,p["muted"])
+    body+=text(30,224,"Contribution levels reported by GitHub",10,p["muted"])
+    body+=text(797,224,"Less",10,p["muted"])
+    for i,color in enumerate(p["levels"]):
+        body+=f'<rect x="{827+i*18}" y="213" width="13" height="13" rx="2" fill="{color}"/>'
+    body+=text(928,224,"More",10,p["muted"])
+    body+=text(30,253,f'GitHub API · {days[0]["date"]} – {days[-1]["date"]} · includes restricted activity counts',10,p["muted"])
+    return svg(1000,275,"GitHub contribution calendar",f'{d["contributions"]} contributions and {d["activeDays"]} active days. Daily cells use GitHub contribution levels. Updated {d["updatedUtc"]}.',body,p)
 
 def codeforces_chart(d,p):
     ratings=d["ratings"]
@@ -161,13 +142,13 @@ def codeforces_chart(d,p):
     path="M"+" L".join(f"{x:.2f} {y:.2f}" for x,y in points)
     peak=max(r["newRating"] for r in ratings);current=ratings[-1]["newRating"]
     body=text(30,35,"Odminbey / Codeforces",18,weight=500)+text(30,58,"Rated contest history",11,p["muted"])
-    body+=text(965,36,f'Master · peak {peak}',13,p["accent"],"end")
+    body+=text(965,36,f'Master · peak {peak}',13,p["purple"],"end")
     for rating,label in [(1200,"Pupil"),(1400,"Specialist"),(1600,"Expert"),(1900,"Candidate Master"),(2100,"Master")]:
         y=223-(rating-floor)/(ceiling-floor)*139
         body+=f'<path d="M42 {y:.2f}h916" stroke="{p["line"]}" stroke-dasharray="3 6"/>'
         body+=text(48,y-5,str(rating)+" / "+label,7,p["muted"])
-    body+=f'<path d="{path} L958 225 L42 225 Z" fill="url(#area)"/><path d="{path}" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round"/>'
-    for x,y in points: body+=f'<circle cx="{x:.2f}" cy="{y:.2f}" r="3.5" fill="{p["bg"]}" stroke="{p["accent"]}" stroke-width="1.5"/>'
+    body+=f'<path d="{path} L958 225 L42 225 Z" fill="url(#area)"/><path d="{path}" fill="none" stroke="{p["purple"]}" stroke-width="2.5" stroke-linejoin="round"/>'
+    for x,y in points: body+=f'<circle cx="{x:.2f}" cy="{y:.2f}" r="3.5" fill="{p["bg"]}" stroke="{p["purple"]}" stroke-width="1.5"/>'
     body+=text(42,250,datetime.fromtimestamp(first,timezone.utc).strftime("%b %Y"),9,p["muted"])+text(958,250,datetime.fromtimestamp(last,timezone.utc).strftime("%b %Y"),9,p["muted"],"end")
     body+=text(30,282,f'{len(ratings)} rated contests · current {current} · source: Codeforces API · checked {d["ratingsUpdatedUtc"]}',9,p["muted"])
     return svg(1000,300,"Codeforces rating history",f'Odminbey: peak rating {peak}, current {current}, {len(ratings)} rated contests. Official Codeforces rating data.',body,p)
@@ -187,9 +168,9 @@ def main():
         if not ratings: raise RuntimeError("No Codeforces data available")
         print("Codeforces API unavailable; retaining the last successful rating history.")
     d=metric_data(user,ratings,ratings_updated)
-    if not d["days"] or d["repositories"]<1: raise ValueError("Incomplete metrics; refusing to replace existing charts")
+    if not d["days"] or d["repositories"]<1 or any(day.get("contributionLevel") not in LEVELS for day in d["days"]): raise ValueError("Incomplete metrics; refusing to replace existing charts")
     for theme,palette in PALETTES.items():
-        for name,render in [("github-stats",overview),("languages",language_chart),("activity",activity_chart),("codeforces",codeforces_chart)]:
+        for name,render in [("activity",activity_chart),("codeforces",codeforces_chart)]:
             result=render(d,palette)
             if result: (ROOT/"assets"/f"{name}-{theme}.svg").write_text(result,encoding="utf-8")
     target.parent.mkdir(parents=True,exist_ok=True);target.write_text(json.dumps(d,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

@@ -1,6 +1,281 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="270" viewBox="0 0 500 270" role="img" aria-labelledby="title desc">
-<title id="title">Programming languages</title><desc id="desc">TypeScript: 27.9%, JavaScript: 21.8%, Python: 18.4%, SCSS: 11.4%, CSS: 10.4%, Other: 10.1%. GitHub language bytes from public original non-archived repositories.</desc>
-<defs><linearGradient id="accent"><stop stop-color="#AE914E"/><stop offset="1" stop-color="#387E86"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#387E86" stop-opacity=".25"/><stop offset="1" stop-color="#387E86" stop-opacity="0"/></linearGradient></defs>
-<rect x=".5" y=".5" width="499" height="269" rx="10" fill="#F8FAF5" stroke="#CFDDD7"/>
-<path d="M25 1h450" stroke="url(#accent)" opacity=".6"/>
-<g font-family="Arial,Helvetica,sans-serif" fill="#24404A"><text x="26" y="34" font-size="17" font-weight="500">Languages / public source</text><text x="26" y="56" font-size="10" fill="#6B8792">Repository bytes, not skill percentages.</text><circle cx="112" cy="151" r="61" fill="none" stroke="#E4EEE8" stroke-width="18"/><circle cx="112" cy="151" r="61" fill="none" stroke="#387E86" stroke-width="18" stroke-dasharray="104.78 383.27" stroke-dashoffset="0.00" transform="rotate(-90 112 151)"/><rect x="225" y="91" width="6" height="6" rx="1" fill="#387E86"/><text x="241" y="98" font-size="11" fill="#24404A">TypeScript</text><text x="472" y="98" font-size="10" fill="#6B8792" text-anchor="end">27.9%</text><circle cx="112" cy="151" r="61" fill="none" stroke="#AE914E" stroke-width="18" stroke-dasharray="81.61 383.27" stroke-dashoffset="-106.78" transform="rotate(-90 112 151)"/><rect x="225" y="116" width="6" height="6" rx="1" fill="#AE914E"/><text x="241" y="123" font-size="11" fill="#24404A">JavaScript</text><text x="472" y="123" font-size="10" fill="#6B8792" text-anchor="end">21.8%</text><circle cx="112" cy="151" r="61" fill="none" stroke="#6F9FAE" stroke-width="18" stroke-dasharray="68.42 383.27" stroke-dashoffset="-190.39" transform="rotate(-90 112 151)"/><rect x="225" y="141" width="6" height="6" rx="1" fill="#6F9FAE"/><text x="241" y="148" font-size="11" fill="#24404A">Python</text><text x="472" y="148" font-size="10" fill="#6B8792" text-anchor="end">18.4%</text><circle cx="112" cy="151" r="61" fill="none" stroke="#557A98" stroke-width="18" stroke-dasharray="41.60 383.27" stroke-dashoffset="-260.82" transform="rotate(-90 112 151)"/><rect x="225" y="166" width="6" height="6" rx="1" fill="#557A98"/><text x="241" y="173" font-size="11" fill="#24404A">SCSS</text><text x="472" y="173" font-size="10" fill="#6B8792" text-anchor="end">11.4%</text><circle cx="112" cy="151" r="61" fill="none" stroke="#8C9CA8" stroke-width="18" stroke-dasharray="37.99 383.27" stroke-dashoffset="-304.42" transform="rotate(-90 112 151)"/><rect x="225" y="191" width="6" height="6" rx="1" fill="#8C9CA8"/><text x="241" y="198" font-size="11" fill="#24404A">CSS</text><text x="472" y="198" font-size="10" fill="#6B8792" text-anchor="end">10.4%</text><circle cx="112" cy="151" r="61" fill="none" stroke="#CFDDD7" stroke-width="18" stroke-dasharray="36.87 383.27" stroke-dashoffset="-344.40" transform="rotate(-90 112 151)"/><rect x="225" y="216" width="6" height="6" rx="1" fill="#CFDDD7"/><text x="241" y="223" font-size="11" fill="#24404A">Other</text><text x="472" y="223" font-size="10" fill="#6B8792" text-anchor="end">10.1%</text><text x="112" y="148" font-size="8" fill="#6B8792" text-anchor="middle">LANGUAGES</text><text x="112" y="169" font-size="22" fill="#24404A" text-anchor="middle">13</text><text x="26" y="251" font-size="9" fill="#6B8792">Original public repos · archived repos excluded</text></g></svg>
+
+      <svg
+        width="495"
+        height="190"
+        viewBox="0 0 495 190"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #0969DA;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
+    @keyframes slideInAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: calc(100%-100px);
+      }
+    }
+    @keyframes growWidthAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #1F2328;
+    }
+    @supports(-moz-appearance: auto) {
+      /* Selector detects Firefox */
+      .stat { font-size:12px; }
+    }
+    .bold { font-weight: 700 }
+    .lang-name {
+      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
+      fill: #1F2328;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    #rect-mask rect{
+      animation: slideInAnimation 1s ease-in-out forwards;
+    }
+    .lang-progress{
+      animation: growWidthAnimation 0.6s ease-in-out forwards;
+    }
+    .progress-background { fill: #ddd; }
+    
+          
+
+          
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    
+          * { animation-duration: 0s !important; animation-delay: 0s !important; }
+        </style>
+
+        
+        <defs>
+          
+          
+        </defs>
+        
+
+        <rect
+          data-testid="card-bg"
+          class="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="6"
+          height="99%"
+          stroke="#D1D9E0"
+          width="494"
+          fill="#FFFFFF"
+          stroke-opacity="1"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Languages in public repositories</text>
+    </g>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <svg data-testid="lang-items" x="25">
+      
+  
+      <mask id="rect-mask">
+          <rect x="0" y="0" width="445" height="8" fill="white" rx="5"/>
+        </mask>
+        
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="0"
+          y="0"
+          width="124.16"
+          height="8"
+          fill="#3178c6"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="124.16"
+          y="0"
+          width="97.23"
+          height="8"
+          fill="#f1e05a"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="221.39"
+          y="0"
+          width="81.86"
+          height="8"
+          fill="#3572A5"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="303.25"
+          y="0"
+          width="50.7"
+          height="8"
+          fill="#c6538c"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="353.95"
+          y="0"
+          width="46.5"
+          height="8"
+          fill="#663399"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="400.45"
+          y="0"
+          width="42.37"
+          height="8"
+          fill="#e34c26"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="442.82"
+          y="0"
+          width="11.24"
+          height="8"
+          fill="#DA5B0B"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="444.06"
+          y="0"
+          width="10.95"
+          height="8"
+          fill="#f34b7d"
+        />
+      
+      
+    <g transform="translate(0, 25)">
+      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="6" r="5" fill="#3178c6" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        TypeScript 27.90%
+      </text>
+    </g>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#f1e05a" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        JavaScript 21.85%
+      </text>
+    </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Python 18.40%
+      </text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms">
+      <circle cx="5" cy="6" r="5" fill="#c6538c" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        SCSS 11.39%
+      </text>
+    </g>
+  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="6" r="5" fill="#663399" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        CSS 10.45%
+      </text>
+    </g>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#e34c26" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        HTML 9.52%
+      </text>
+    </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Jupyter Notebook 0.28%
+      </text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms">
+      <circle cx="5" cy="6" r="5" fill="#f34b7d" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        C++ 0.21%
+      </text>
+    </g>
+  </g></g>
+    </g>
+  
+    </svg>
+  
+        </g>
+      </svg>
+    

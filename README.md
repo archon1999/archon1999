@@ -1,144 +1,63 @@
+![Nazarbek Baltabaev — engineering from algorithms to products](assets/banner.svg)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
-  <img src="https://img.shields.io/badge/NumPy-3776AB?style=for-the-badge&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-0078D4?style=for-the-badge&logo=pandas&logoColor=white">
+[English](README.md) · [O‘zbekcha](README.uz.md) · [Русский](README.ru.md)
 
-  <br>
+# Nazarbek Baltabaev
 
-  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+**Full-stack engineer. Founder of KEP.uz. Yandex Cup 2025 Frontend Champion.**
 
-  <br>
+I build products where the interesting work is beneath the interface: judging code, keeping a restaurant running offline, making financial rules consistent, or turning a musical score into a learning experience. Based in Uzbekistan; working across React, TypeScript, Python and Go.
 
-  <img src="https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white">  
-  <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black">
-  <img src="https://img.shields.io/badge/-Sololearn-3a464b?style=for-the-badge&logo=Sololearn&logoColor=white">
+## The flagship: KEP.uz
 
-  <br>
-  
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
-  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
-  
-  <br>
+[KEP.uz](https://kep.uz/) brings programming practice, contests, learning and community into one platform. I founded it and continue to build the product and its engineering foundations.
 
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
+| Registered users | Visible problems | Contests | Submissions |
+| ---: | ---: | ---: | ---: |
+| 9,564 | 2,101 | 374 | 436,057 |
 
-  <br>
+Public platform snapshot, **26 October 2026**. [Data source](https://kep.uz/api/landing-page-statistics). These are registered users and submitted solutions, not active-user or accepted-solution counts.
 
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white">
-  <img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white">
-  
-  <br>
+The work spans a modular React client, Django services, real-time competition experiences and a judging system for running and evaluating submissions.
 
-  <img src="https://img.shields.io/badge/Jupyter-F38020?style=for-the-badge&logo=jupyter&logoColor=white">
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white">
-  <img src="https://img.shields.io/badge/LaTeX-1f425f?style=for-the-badge&logo=latex&logoColor=white">
+[Explore the platform](https://kep.uz/) · [Frontend source](https://github.com/archon1999/kep-frontend)
 
-  <br>
+## Selected work
 
-  <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white">
-  <img src="https://img.shields.io/badge/Powershell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white">
-  
-  <br>
-  
-  <img src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white">
-  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
-  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white">
-  <img src="https://img.shields.io/badge/PDF-840010?style=for-the-badge&logo=adobe&logoColor=white">
-  
-  <br>
-  
-  <img src="https://img.shields.io/badge/NVIDIA-GTX1660ti-76B900?style=for-the-badge&logo=nvidia&logoColor=white">
-  <img src="https://img.shields.io/badge/AMD-Ryzen_7_4800H-ED1C24?style=for-the-badge&logo=amd&logoColor=white">
-  
-  <br>
-  
-  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
-  <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white">
+| Product | What I work on |
+| --- | --- |
+| [Cafe Postcode / PosCode](https://cafe-postcode.uz/) | Built end to end: restaurant POS, operations, device integration and offline synchronization. Used in **200+ branches**, based on my operating count. [Backend](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend). |
+| Nexa / Scale TMS | Started as frontend lead; moved to senior full-stack after the MVP. React and Go work across logistics, reporting and financial workflows. |
+| [cp.uz](https://cp.uz/) | Uzbek competitive-programming knowledge platform: structured learning, algorithm references and olympiad archives. [Source](https://github.com/cp-uz/cp-uz). |
+| [KuyLab](https://kuylab.uz/) | Piano learning studio with MIDI playback, guided practice and personal progress. [Source](https://github.com/archon1999/kuylab). |
+| [Deenly](https://deenly.uz/) | Islamic learning and worship tools with shared progress across the web and Telegram. [Source](https://github.com/archon1999/DeenlyBot). |
 
-  <br>
-  
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
-  
-  <br>
-  
-  <img src="https://img.shields.io/badge/FL.ru-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white">
-<p>
-  
-# Hard Skills
-* **Python** &nbsp; <img width=20 src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/python.svg">
-  * **Веб-программирование**
-      * Разработка веб-приложений на **Django** с использованием готовых шаблонов<b>(HTML, CSS, Bootstrap, JQuery)</b> 
-      * REST API<b>(FastAPI, DRF)</b>
-      * **HTTP, sockets, requests**
-  * **Data-Science**
-      * **NumPy, Pandas, Matplotlib, Scipy**
-  * **Web-scraping**
-      * HTML-парсинг<b>(bs4, lxml, XPath)</b>
-      * Работа с электронными книгами<b>(Excel, Google Sheets)</b>
-      * JS-рендеринг<b>(pyppeteer, selenium, splash)</b>
-  * **Parsing**
-      * Regular expressions<b>(re)</b>
-      * Работа с документами<b>(docx, xlsx, pdf)</b>
-  * **Боты**
-      * Разработка автоматизированных ботов<b>(скрипты, утилиты)</b>
-      * Разработка чат-ботов для мессенджеров<b>(Telegram, Discord, VK, WhatsApp)</b>
-  * **Desktop-приложения**
-      * **tkinter, PyQT**
+I also contributed to the **IOI 2026 technical environment**, including contestant Linux provisioning and debugger reliability, and worked on enterprise energy monitoring and billing interfaces at **Uzinfocom**. My current independent projects include **KEPScience**, an interactive science learning platform.
 
-* **C++/C** &nbsp; <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png">
-  * <b>Алгоритмы и структуры данных</b>
-      * <b>Спортивное программирование</b><i>(codeforces, timus, leetcode)</i>
-  * <b>Windows Forms</b>
-* **TypeScript** &nbsp; <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png">
-  * **Angular**
+## Competitive programming
 
-<hr>
+| Result | Evidence |
+| --- | --- |
+| **Yandex Cup 2025 — 1st, Frontend main category** | [Official leaderboard](https://new.contest.yandex.com/contests/86107/leaderboard) |
+| **Codeforces Master — peak 2157** | [Odminbey](https://codeforces.com/profile/Odminbey) |
+| **ICPC Uzbekistan Subregional 2018 — 1st, team** | [Official standings](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) |
+| **ICPC Uzbekistan & Tajikistan Regional 2020 — 1st, team** | [Official standings](https://official.contest.yandex.ru/uz2020/contest/23207/standings/) |
+| **ICPC Uzbekistan 2019 — 2nd, team** | [Official standings](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) |
 
-# Soft skills
+[Algorithms and C++ templates](https://github.com/archon1999/competitive-programming)
 
-```text
-Самостоятельное обучение         ████████████████████   100% 
-Способность учиться              ████████████████████   100%
-Умение решать сложные задачи     ████████████████████   100%
-Креативность                     ████████████████████   100%
-Амбициозность                    ████████████████████   100%
-Целеустремленность               ████████████████████   100%
-Умение убеждать                  ███████████████████░   95%
-Чувство юмора                    ███████████████████░   95%
-Адаптируемость                   ███████████████████░   90%
-Лидерство                        ██████████████████░░   90%
-Работоспобосность                ██████████████░░░░░░   70%
-Мотивация                        ██████████████░░░░░░   70%
-Работа в команде                 ██████████████░░░░░░   70%
-Тайм-менеджмент                  ██████████░░░░░░░░░░   50%
-Стрессоустойчивость              ██████░░░░░░░░░░░░░░   30%
-```
+## Engineering focus
 
-<hr>
+- Clear domain boundaries and typed contracts between UI, services and storage.
+- Correct state transitions, permissions, monetary calculations and retry behavior.
+- Products that remain understandable across English, Uzbek and Russian.
+- Shipping the full path: interface, backend, deployment and operational recovery.
 
- 
+**Frontend:** React · Angular · TypeScript · MUI  
+**Backend:** Python · Django/DRF · FastAPI · Go · PostgreSQL · Redis  
+**Delivery:** Docker · Linux · Nginx · CI/CD  
+**Foundations:** C++ · algorithms · data structures
 
-# О себе
-  Фул-стэк разработчик
+## Connect
 
-<hr>
-
-# Где меня найти?
-
-<a target="_blank" href="https://t.me/archon1999/">
-  <img align="left" alt="Telegram" width="100px" src="https://img.shields.io/badge/Telegram-445f9d?style=for-the-badge&logo=Telegram&logoColor=white"/>
-</a>
-
-<a target="_blank" href="https://codeforces.com/profile/Odminbey">
-  <img align="left" alt="Codeforces" src="https://cp-logo.vercel.app/codeforces/Odminbey" />
-</a>
+[Telegram](https://t.me/archon1999) · [Email](mailto:nazarbek.baltabaev@gmail.com) · [Codeforces](https://codeforces.com/profile/Odminbey) · [FL.ru](https://www.fl.ru/users/nazarbek-baltab/portfolio/)

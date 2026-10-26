@@ -33,6 +33,9 @@
 | Продукт | Моя работа |
 | --- | --- |
 | [Cafe Postcode / PosCode](https://cafe-postcode.uz/) | Полностью разработал продукт: ресторанный POS, операционные процессы, интеграцию устройств и офлайн-синхронизацию. По моим операционным данным, используется в **200+ филиалах**. [Бэкенд](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend). |
+| [HET Billing](https://reestr.uz/en/projects/1566) · UZINFOCOM | **Frontend Team Lead / Tech Lead, 05.2023–08.2025.** Руководство 10 frontend-инженерами: национальный биллинг электроэнергии, веб-кабинеты, e-Dalolatnoma и HETK; архитектура, ревью и координация разработки. |
+| Energo Nazorat · UZINFOCOM | **Full-Stack Engineer, 01.2024–12.2025.** Angular-интерфейсы, Django-endpoint’ы, модели данных и интеграции для энергомониторинга. [Официальный контекст платформы](https://api-portal.gov.uz/uploads/1b137b5f-db61-f042-1ed9-8aaed22657f0_media_.pdf). |
+| K-Tech · коммунальный биллинг Германии | **Angular Frontend Engineer, 09.2024–05.2025.** Расчёты горячей/холодной воды и электроэнергии по зданиям и квартирам; сложные формы, таблицы, API и навигация. |
 | Nexa / Scale TMS | Начал как frontend lead, после MVP перешёл на роль senior full-stack. Работа с React и Go в логистике, отчётности и финансовых процессах. |
 | [cp.uz](https://cp.uz/) | Платформа знаний по спортивному программированию на узбекском языке: учебные маршруты, справочник алгоритмов и архив олимпиад. [Код](https://github.com/cp-uz/cp-uz). |
 | [KuyLab](https://kuylab.uz/) | Студия обучения игре на фортепиано: MIDI-плеер, поэтапная практика и личный прогресс. [Код](https://github.com/archon1999/kuylab). |

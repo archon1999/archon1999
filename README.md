@@ -33,6 +33,9 @@ The work spans a modular React client, Django services, real-time competition ex
 | Product | What I work on |
 | --- | --- |
 | [Cafe Postcode / PosCode](https://cafe-postcode.uz/) | Built end to end: restaurant POS, operations, device integration and offline synchronization. Used in **200+ branches**, based on my operating count. [Backend](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend). |
+| [HET Billing](https://reestr.uz/en/projects/1566) · UZINFOCOM | **Frontend Team Lead / Tech Lead, May 2023–Aug 2025.** Led 10 frontend engineers across national electricity billing, web cabinets, e-Dalolatnoma and HETK; architecture, code review and delivery. |
+| Energo Nazorat · UZINFOCOM | **Full-Stack Engineer, Jan 2024–Dec 2025.** Angular interfaces, Django endpoints, data models and integrations for energy monitoring. [Official platform context](https://api-portal.gov.uz/uploads/1b137b5f-db61-f042-1ed9-8aaed22657f0_media_.pdf). |
+| K-Tech · Germany utilities billing | **Angular Frontend Engineer, Sep 2024–May 2025.** Hot/cold water and electricity billing across buildings and apartments; complex forms, tables, API integration and navigation. |
 | Nexa / Scale TMS | Started as frontend lead; moved to senior full-stack after the MVP. React and Go work across logistics, reporting and financial workflows. |
 | [cp.uz](https://cp.uz/) | Uzbek competitive-programming knowledge platform: structured learning, algorithm references and olympiad archives. [Source](https://github.com/cp-uz/cp-uz). |
 | [KuyLab](https://kuylab.uz/) | Piano learning studio with MIDI playback, guided practice and personal progress. [Source](https://github.com/archon1999/kuylab). |

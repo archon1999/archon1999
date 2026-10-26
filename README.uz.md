@@ -33,6 +33,9 @@ Ishlar modulli React interfeysi, Django servislari, real vaqt rejimidagi musobaq
 | Mahsulot | Mening ishlarim |
 | --- | --- |
 | [Cafe Postcode / PosCode](https://cafe-postcode.uz/) | To‘liq o‘zim yaratganman: restoran POS tizimi, operatsion boshqaruv, qurilmalar integratsiyasi va oflayn sinxronlash. O‘z hisobim bo‘yicha **200 dan ortiq shahobchada** ishlatiladi. [Backend](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend). |
+| [HET Billing](https://reestr.uz/en/projects/1566) · UZINFOCOM | **Frontend Team Lead / Tech Lead, 05.2023–08.2025.** Milliy elektr billingi, veb kabinetlar, e-Dalolatnoma va HETK bo‘yicha 10 frontend dasturchiga rahbarlik; arxitektura, kod ko‘rigi va ishlarni muvofiqlashtirish. |
+| Energo Nazorat · UZINFOCOM | **Full-Stack Engineer, 01.2024–12.2025.** Energetika monitoringi uchun Angular interfeyslari, Django endpoint’lari, ma’lumot modellari va integratsiyalar. [Rasmiy platforma konteksti](https://api-portal.gov.uz/uploads/1b137b5f-db61-f042-1ed9-8aaed22657f0_media_.pdf). |
+| K-Tech · Germaniya kommunal billingi | **Angular Frontend Engineer, 09.2024–05.2025.** Bino va xonadonlar bo‘yicha issiq/sovuq suv va elektr hisobi; murakkab shakllar, jadvallar, API va navigatsiya. |
 | Nexa / Scale TMS | Frontend lead sifatida boshlaganman; MVPdan keyin senior full-stack roliga o‘tganman. Logistika, hisobotlar va moliyaviy jarayonlarda React va Go bilan ishlayman. |
 | [cp.uz](https://cp.uz/) | Sport dasturlashni o‘zbek tilida o‘rganish platformasi: izchil ta’lim yo‘llari, algoritmlar qo‘llanmasi va olimpiadalar arxivi. [Kod](https://github.com/cp-uz/cp-uz). |
 | [KuyLab](https://kuylab.uz/) | MIDI ijrosi, bosqichma-bosqich mashqlar va shaxsiy progressga ega pianino o‘rganish studiyasi. [Kod](https://github.com/archon1999/kuylab). |

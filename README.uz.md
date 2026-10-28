@@ -1,90 +1,111 @@
-![Nazarbek Baltabaev — algoritmlardan mahsulotlargacha](assets/banner.svg)
-
-<p align="center">
-  <a href="https://new.contest.yandex.com/contests/86107/leaderboard"><img src="assets/badge-yandex.svg" height="32" alt="Yandex Cup 2025 — Frontend 1st place"></a>
-  <a href="https://codeforces.com/profile/Odminbey"><img src="assets/badge-codeforces.svg" height="32" alt="Codeforces Master — peak 2157"></a>
-  <a href="https://kep.uz/"><img src="assets/badge-kep.svg" height="32" alt="KEP.uz founder and full-stack engineer"></a>
-</p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"><img src="assets/banner-light.svg" alt="Nazarbek Baltabaev — Software Engineer" width="100%"></picture>
 
 [English](README.md) · [O‘zbekcha](README.uz.md) · [Русский](README.ru.md)
 
-# Nazarbek Baltabaev
+**Software Engineer · KEP.uz asoschisi · Yandex Cup 2025 Frontend g‘olibi.**
 
-**Full-stack dasturchi. KEP.uz asoschisi. Yandex Cup 2025 Frontend chempioni.**
+Dasturiy tizimlar — arxitekturadan amaliy yechimgacha: mahsulot interfeyslari, backend xizmatlari, judge infratuzilmasi va avtomatlashtirish. Urganch, O‘zbekiston.
 
-Men interfeys ortida murakkab muhandislik masalalari yotgan mahsulotlarni yarataman: kodni tekshirish, restoranni internetsiz ishlatish, moliyaviy qoidalarni izchil qo‘llash yoki musiqiy asarni o‘rganish tajribasiga aylantirish. O‘zbekistonda yashayman; React, TypeScript, Python va Go bilan ishlayman.
-
-## Asosiy loyiham: KEP.uz
-
-[KEP.uz](https://kep.uz/) dasturlash mashqlari, musobaqalar, ta’lim va hamjamiyatni bitta platformada birlashtiradi. Unga asos solganman va mahsulot hamda uning texnik poydevorini rivojlantirishda davom etaman.
-
-| Ro‘yxatdan o‘tgan foydalanuvchilar | Ochiq masalalar | Musobaqalar | Yuborilgan yechimlar |
-| ---: | ---: | ---: | ---: |
-| 9 564 | 2 101 | 374 | 436 057 |
-
-**2026-yil 26-oktabr** holatidagi ochiq statistika. [Ma’lumot manbasi](https://kep.uz/api/landing-page-statistics). Bu ro‘yxatdan o‘tgan foydalanuvchilar va yuborilgan yechimlar soni; faol foydalanuvchilar yoki to‘g‘ri yechimlar soni emas.
-
-Ishlar modulli React interfeysi, Django servislari, real vaqt rejimidagi musobaqalar va yuborilgan dasturlarni ishga tushirib baholaydigan judge tizimini qamrab oladi.
-
-[Platformani ochish](https://kep.uz/) · [Frontend kodi](https://github.com/archon1999/kep-frontend)
-
-## Tanlangan loyihalar
-
-| Mahsulot | Mening ishlarim |
-| --- | --- |
-| [Cafe Postcode / PosCode](https://cafe-postcode.uz/) | To‘liq o‘zim yaratganman: restoran POS tizimi, operatsion boshqaruv, qurilmalar integratsiyasi va oflayn sinxronlash. O‘z hisobim bo‘yicha **200 dan ortiq shahobchada** ishlatiladi. [Backend](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend). |
-| [HET Billing](https://reestr.uz/en/projects/1566) · UZINFOCOM | **Frontend Team Lead / Tech Lead, 05.2023–08.2025.** Milliy elektr billingi, veb kabinetlar, e-Dalolatnoma va HETK bo‘yicha 10 frontend dasturchiga rahbarlik; arxitektura, kod ko‘rigi va ishlarni muvofiqlashtirish. |
-| Energo Nazorat · UZINFOCOM | **Full-Stack Engineer, 01.2024–12.2025.** Energetika monitoringi uchun Angular interfeyslari, Django endpoint’lari, ma’lumot modellari va integratsiyalar. [Rasmiy platforma konteksti](https://api-portal.gov.uz/uploads/1b137b5f-db61-f042-1ed9-8aaed22657f0_media_.pdf). |
-| K-Tech · Germaniya kommunal billingi | **Angular Frontend Engineer, 09.2024–05.2025.** Bino va xonadonlar bo‘yicha issiq/sovuq suv va elektr hisobi; murakkab shakllar, jadvallar, API va navigatsiya. |
-| Nexa / Scale TMS | Frontend lead sifatida boshlaganman; MVPdan keyin senior full-stack roliga o‘tganman. Logistika, hisobotlar va moliyaviy jarayonlarda React va Go bilan ishlayman. |
-| [cp.uz](https://cp.uz/) | Sport dasturlashni o‘zbek tilida o‘rganish platformasi: izchil ta’lim yo‘llari, algoritmlar qo‘llanmasi va olimpiadalar arxivi. [Kod](https://github.com/cp-uz/cp-uz). |
-| [KuyLab](https://kuylab.uz/) | MIDI ijrosi, bosqichma-bosqich mashqlar va shaxsiy progressga ega pianino o‘rganish studiyasi. [Kod](https://github.com/archon1999/kuylab). |
-| [Deenly](https://deenly.uz/) | Sayt va Telegram o‘rtasida umumiy progressga ega islomiy ta’lim va ibodat vositalari. [Kod](https://github.com/archon1999/DeenlyBot). |
-
-**IOI 2026 texnik muhiti**ga, jumladan ishtirokchilar uchun Linux tizimini tayyorlash va debugger ishonchliligiga hissa qo‘shganman. **Uzinfocom**da energiya monitoringi va billing tizimlari interfeyslari ustida ishlaganman. Hozirgi mustaqil loyihalarim orasida interaktiv ilmiy ta’lim platformasi — **KEPScience** ham bor.
-
-## Texnologiyalarim
-
-![React, TypeScript, Python, Django, Go and engineering tools](assets/toolkit.svg)
-
-## GitHub faoliyatim
-
-<p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg"><img src="assets/github-stats-light.svg" alt="GitHub statistics" width="49%"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Public source languages" width="49%"></picture>
+<p>
+<a href="https://new.contest.yandex.com/contests/86107/leaderboard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-yandex-dark.svg"><img src="assets/badge-yandex-light.svg" alt="Yandex Cup 2025 — Frontend 1st" width="32%"></picture></a>
+<a href="https://codeforces.com/profile/Odminbey"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-codeforces-dark.svg"><img src="assets/badge-codeforces-light.svg" alt="Codeforces Master — peak 2157" width="32%"></picture></a>
+<a href="https://kep.uz/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-kep-dark.svg"><img src="assets/badge-kep-light.svg" alt="KEP.uz founder" width="32%"></picture></a>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" alt="GitHub contribution streaks — Asia/Tashkent" width="100%"></picture>
+## Dasturlash platformasi
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/kep-overview-dark.svg"><img src="assets/kep-overview-light.svg" alt="KEP.uz — registered users, visible problems, contests and submissions" width="100%"></picture>
+
+KEP.uz asoschisi: React ish maydoni, Django xizmatlari va online judge infratuzilmasi. Platformaning ochiq statistikasi KEP.uz’dan yangilanadi.
+
+[Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Kod](https://github.com/archon1999/kep-frontend) · [Sayt](https://kep.uz/) · [Ma’lumotlar](data/products.json)
+
+## Restoran tizimlari
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cafe-overview-dark.svg"><img src="assets/cafe-overview-light.svg" alt="Cafe Postcode — POS, local agent, devices and Django backend" width="100%"></picture>
+
+Cafe Postcode’ni to‘liq bir o‘zim yaratganman: POS, restoran jarayonlari, qurilma integratsiyalari va lokal agent orqali oflayn ish. Tizim **200+ shoxobchada** ishlaydi.
+
+[Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Backend](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend) · [Admin](https://github.com/archon1999/cafe-postcode-admin-frontend)
+
+## Loyihalar va muhandislik
+
+| Loyiha | Muhandislik hissasi | Havolalar |
+| --- | --- | --- |
+| **KEP.uz** | Dasturlash ish maydonlari, musobaqalar, ta’lim va ajratilgan online judge. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Kod](https://github.com/archon1999/kep-frontend) · [Sayt](https://kep.uz/) |
+| **HET Billing** | Respublika elektr billingi. Bog‘liq ilovalarda 10 frontend dasturchiga rahbarlik. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/het-billing.md) · [Sayt](https://cabinet.het.uz/) |
+| **Nexa TMS AI** | Transport operatsiyalari, dispetcherlik, texnik xizmat, ish haqi va moliyaviy hisobotlar. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/nexa.md) · [Sayt](https://nexa-tms.ai/) |
+| **Cafe Postcode** | Restoran POS’i, operatsiyalar, qurilmalar va oflayn sinxronlash. 200+ shoxobchada ishlaydi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Kod](https://github.com/archon1999/cafe-postcode-backend) · [Sayt](https://cafe-postcode.uz/) |
+| **Energo Nazorat** | Energetika monitoringi va hisobotlari: Angular interfeyslari va Django xizmatlari. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/energo-nazorat.md) |
+| **Smart Billing 360** | Germaniyadagi bino va xonadonlar uchun issiq suv, sovuq suv va elektr billingi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/smart-billing-360.md) |
+| **KuyLab** | MIDI ijrosi, vizual notalar va bosqichli mashqlar bilan pianino o‘rganish studiyasi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Kod](https://github.com/archon1999/kuylab) · [Sayt](https://kuylab.uz/) |
+| **Deenly** | Arab tili, kutubxona, taqvim va eslatmalar — veb hamda Telegram’da umumiy profil. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Kod](https://github.com/archon1999/DeenlyBot) · [Sayt](https://deenly.uz/) |
+| **IOI 2026** | Ishtirokchi Linux muhitlari, virtual mashinalar, debugging va oflayn resurslar. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Sayt](https://ioi2026.uz/) |
+| **cp.uz** | O‘zbekcha algoritmlar ma’lumotnomasi, o‘quv yo‘llari va olimpiada arxivi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cp-uz.md) · [Kod](https://github.com/cp-uz/cp-uz) · [Sayt](https://cp.uz/) |
+| **KEPScience** | Interaktiv fan: maqolalar, tushunchalar atlasi, modellar va o‘quv o‘yinlari. Ishlab chiqilmoqda. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kepscience.md) · [Sayt](https://kep.science.uz/) |
+
+[Arxitektura izohlari va barcha 11 loyiha](https://github.com/archon1999/engineering-portfolio)
+
+<details>
+<summary>Jamoalar va mas’uliyat</summary>
+
+**Newmax Group LLC:** Nexa TMS AI, Frontend Lead → Senior Full-Stack. **UZINFOCOM:** HET Billing frontend yetakchiligi va Energo Nazorat full-stack ishlari. **K-Tech (Khorezm Tech):** Smart Billing 360 frontend. **IOI 2026:** HSC tarkibida texnik hissa.
+
+</details>
+
+## Muhandislik steki
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit-dark.svg"><img src="assets/toolkit-light.svg" alt="React, TypeScript, Angular, MUI, Python, Django, FastAPI, Go, PostgreSQL, Redis, Docker, Linux, Git and C++" width="100%"></picture>
+
+**Interfeyslar:** React · Angular · TypeScript · MUI · Figma<br>
+**Xizmatlar va ma’lumotlar:** Django/DRF · FastAPI · Go · PostgreSQL · Redis<br>
+**Infratuzilma va avtomatlashtirish:** Docker · Linux · Nginx · CI/CD · Selenium · botlar<br>
+**Asoslar:** C++ · algoritmlar · ma’lumotlar tuzilmalari
+
+## Musobaqa dasturlashi
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/yandex-journey-dark.svg"><img src="assets/yandex-journey-light.svg" alt="Yandex Cup: semifinal in 2023, seventh in the 2024 final, Frontend winner in 2025" width="100%"></picture>
+
+| Mavsum | Natija |
+| --- | --- |
+| 2023 | Yarim final |
+| 2024 | Finalda 7-o‘rin |
+| [2025](https://new.contest.yandex.com/contests/86107/leaderboard) | **Frontend g‘olibi** |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/codeforces-dark.svg"><img src="assets/codeforces-light.svg" alt="Odminbey — rated Codeforces contest history" width="100%"></picture>
+
+<details>
+<summary>Boshqa musobaqa natijalari</summary>
+
+| Musobaqa | Natija |
+| --- | --- |
+| [Robocoders 2019](https://kun.uz/ru/news/2019/02/24/v-uzbekistane-opredelili-pobediteley-finalnogo-tura-konkursa-robocoders-2019) | 1-o‘rin · yoshlar yo‘nalishi |
+| [IT Park Cup 2020](https://it-park.uz/ru/itpark/news/pobediteli-chempionata-po-sportivnomu-programmirovaniyu-s-prizovym-fondom-v-30-000) | 2-o‘rin · A divizioni |
+| [ICPC Uzbekistan 2018](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) | 1-o‘rin · jamoa |
+| [ICPC Uzbekistan & Tajikistan 2020](https://official.contest.yandex.ru/uz2020/contest/23207/standings/) | 1-o‘rin · jamoa |
+| [ICPC Uzbekistan 2019](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) | 2-o‘rin · jamoa |
+
+</details>
+
+[C++ / Algoritmlar](https://github.com/archon1999/competitive-programming) · [Codeforces / Odminbey](https://codeforces.com/profile/Odminbey)
+
+## GitHub faolligi
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg"><img src="assets/github-stats-light.svg" alt="GitHub statistics" width="49%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages in public source repositories" width="49%"></picture>
+</p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="GitHub contribution calendar" width="100%"></picture>
 
-<sub>GitHub Readme Stats + Streak Stats har kuni GitHub Actions orqali yangilanadi. Tillar ochiq repozitoriylardagi kod hajmini bildiradi; kalendarga yopiq loyihalardagi faoliyat soni ham kirishi mumkin. Streak sanalari: Asia/Tashkent. [Vositalar va ma’lumotlar](PROFILE-ASSETS.md).</sub>
+<details>
+<summary>Faollik seriyalari</summary>
 
-## Sport dasturlash
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" alt="GitHub contribution streaks — Asia/Tashkent" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/codeforces-dark.svg"><img src="assets/codeforces-light.svg" alt="Odminbey — Codeforces rating history" width="100%"></picture>
+</details>
 
-| Natija | Manba |
-| --- | --- |
-| **Yandex Cup 2025 — Frontend asosiy yo‘nalishida 1-o‘rin** | [Rasmiy natijalar](https://new.contest.yandex.com/contests/86107/leaderboard) |
-| **Codeforces Master — eng yuqori reyting 2157** | [Odminbey](https://codeforces.com/profile/Odminbey) |
-| **ICPC Uzbekistan Subregional 2018 — jamoaviy 1-o‘rin** | [Rasmiy natijalar](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) |
-| **ICPC Uzbekistan & Tajikistan Regional 2020 — jamoaviy 1-o‘rin** | [Rasmiy natijalar](https://official.contest.yandex.ru/uz2020/contest/23207/standings/) |
-| **ICPC Uzbekistan 2019 — jamoaviy 2-o‘rin** | [Rasmiy natijalar](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) |
-
-[Algoritmlar va C++ shablonlari](https://github.com/archon1999/competitive-programming)
-
-## Muhandislikda e’tibor beradigan jihatlarim
-
-- Domenlar o‘rtasidagi aniq chegaralar, UI, servislar va ma’lumotlar ombori orasidagi tiplashtirilgan kontraktlar.
-- To‘g‘ri holat almashinuvi, ruxsatlar, pul hisob-kitoblari va qayta urinishlar.
-- Ingliz, o‘zbek va rus tillarida tushunarli mahsulotlar.
-- To‘liq yetkazib berish: interfeys, backend, joylashtirish va nosozlikdan tiklash.
-
-**Frontend:** React · Angular · TypeScript · MUI  
-**Backend:** Python · Django/DRF · FastAPI · Go · PostgreSQL · Redis  
-**Yetkazib berish:** Docker · Linux · Nginx · CI/CD  
-**Asoslar:** C++ · algoritmlar · ma’lumotlar tuzilmalari
+<sub>GitHub kartalari ochiq repolar ma’lumotlaridan foydalanadi; tillar ulushi kod hajmini ko‘rsatadi. Faollik sonlari yopiq ishlar jami sonini ham qamrashi mumkin. [Vositalar va ma’lumotlar](PROFILE-ASSETS.md).</sub>
 
 ## Bog‘lanish
 

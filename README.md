@@ -1,90 +1,111 @@
-![Nazarbek Baltabaev — engineering from algorithms to products](assets/banner.svg)
-
-<p align="center">
-  <a href="https://new.contest.yandex.com/contests/86107/leaderboard"><img src="assets/badge-yandex.svg" height="32" alt="Yandex Cup 2025 — Frontend 1st place"></a>
-  <a href="https://codeforces.com/profile/Odminbey"><img src="assets/badge-codeforces.svg" height="32" alt="Codeforces Master — peak 2157"></a>
-  <a href="https://kep.uz/"><img src="assets/badge-kep.svg" height="32" alt="KEP.uz founder and full-stack engineer"></a>
-</p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"><img src="assets/banner-light.svg" alt="Nazarbek Baltabaev — Software Engineer" width="100%"></picture>
 
 [English](README.md) · [O‘zbekcha](README.uz.md) · [Русский](README.ru.md)
 
-# Nazarbek Baltabaev
+**Software Engineer · KEP.uz founder · Yandex Cup 2025 Frontend winner.**
 
-**Full-stack engineer. Founder of KEP.uz. Yandex Cup 2025 Frontend Champion.**
+Software systems, from architecture to implementation: product interfaces, backend services, judging infrastructure and automation. Based in Urgench, Uzbekistan.
 
-I build products where the interesting work is beneath the interface: judging code, keeping a restaurant running offline, making financial rules consistent, or turning a musical score into a learning experience. Based in Uzbekistan; working across React, TypeScript, Python and Go.
-
-## The flagship: KEP.uz
-
-[KEP.uz](https://kep.uz/) brings programming practice, contests, learning and community into one platform. I founded it and continue to build the product and its engineering foundations.
-
-| Registered users | Visible problems | Contests | Submissions |
-| ---: | ---: | ---: | ---: |
-| 9,564 | 2,101 | 374 | 436,057 |
-
-Public platform snapshot, **26 October 2026**. [Data source](https://kep.uz/api/landing-page-statistics). These are registered users and submitted solutions, not active-user or accepted-solution counts.
-
-The work spans a modular React client, Django services, real-time competition experiences and a judging system for running and evaluating submissions.
-
-[Explore the platform](https://kep.uz/) · [Frontend source](https://github.com/archon1999/kep-frontend)
-
-## Selected work
-
-| Product | What I work on |
-| --- | --- |
-| [Cafe Postcode / PosCode](https://cafe-postcode.uz/) | Built end to end: restaurant POS, operations, device integration and offline synchronization. Used in **200+ branches**, based on my operating count. [Backend](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend). |
-| [HET Billing](https://reestr.uz/en/projects/1566) · UZINFOCOM | **Frontend Team Lead / Tech Lead, May 2023–Aug 2025.** Led 10 frontend engineers across national electricity billing, web cabinets, e-Dalolatnoma and HETK; architecture, code review and delivery. |
-| Energo Nazorat · UZINFOCOM | **Full-Stack Engineer, Jan 2024–Dec 2025.** Angular interfaces, Django endpoints, data models and integrations for energy monitoring. [Official platform context](https://api-portal.gov.uz/uploads/1b137b5f-db61-f042-1ed9-8aaed22657f0_media_.pdf). |
-| K-Tech · Germany utilities billing | **Angular Frontend Engineer, Sep 2024–May 2025.** Hot/cold water and electricity billing across buildings and apartments; complex forms, tables, API integration and navigation. |
-| Nexa / Scale TMS | Started as frontend lead; moved to senior full-stack after the MVP. React and Go work across logistics, reporting and financial workflows. |
-| [cp.uz](https://cp.uz/) | Uzbek competitive-programming knowledge platform: structured learning, algorithm references and olympiad archives. [Source](https://github.com/cp-uz/cp-uz). |
-| [KuyLab](https://kuylab.uz/) | Piano learning studio with MIDI playback, guided practice and personal progress. [Source](https://github.com/archon1999/kuylab). |
-| [Deenly](https://deenly.uz/) | Islamic learning and worship tools with shared progress across the web and Telegram. [Source](https://github.com/archon1999/DeenlyBot). |
-
-I also contributed to the **IOI 2026 technical environment**, including contestant Linux provisioning and debugger reliability, and worked on enterprise energy monitoring and billing interfaces at **Uzinfocom**. My current independent projects include **KEPScience**, an interactive science learning platform.
-
-## The toolkit
-
-![React, TypeScript, Angular, MUI, Python, Django, FastAPI, Go, PostgreSQL, Redis, Docker, Linux, Git, C++](assets/toolkit.svg)
-
-## GitHub activity
-
-<p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg"><img src="assets/github-stats-light.svg" alt="GitHub statistics" width="49%"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages across public source repositories" width="49%"></picture>
+<p>
+<a href="https://new.contest.yandex.com/contests/86107/leaderboard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-yandex-dark.svg"><img src="assets/badge-yandex-light.svg" alt="Yandex Cup 2025 — Frontend 1st" width="32%"></picture></a>
+<a href="https://codeforces.com/profile/Odminbey"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-codeforces-dark.svg"><img src="assets/badge-codeforces-light.svg" alt="Codeforces Master — peak 2157" width="32%"></picture></a>
+<a href="https://kep.uz/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-kep-dark.svg"><img src="assets/badge-kep-light.svg" alt="KEP.uz founder" width="32%"></picture></a>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" alt="GitHub contribution streaks — Asia/Tashkent" width="100%"></picture>
+## The programming platform
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="GitHub contribution calendar" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/kep-overview-dark.svg"><img src="assets/kep-overview-light.svg" alt="KEP.uz — registered users, visible problems, contests and submissions" width="100%"></picture>
 
-<sub>GitHub Readme Stats + Streak Stats, refreshed daily by GitHub Actions. Languages measure public repository bytes; the calendar can include restricted activity counts. Streak dates use Asia/Tashkent. [Tools and data scope](PROFILE-ASSETS.md).</sub>
+Founded and built KEP.uz across the React workspace, Django services and online-judge infrastructure. Public platform statistics are refreshed from KEP.uz.
+
+[Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Source](https://github.com/archon1999/kep-frontend) · [Website](https://kep.uz/) · [Data](data/products.json)
+
+## Restaurant systems
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cafe-overview-dark.svg"><img src="assets/cafe-overview-light.svg" alt="Cafe Postcode — POS, local agent, devices and Django backend" width="100%"></picture>
+
+Built Cafe Postcode end to end: POS, restaurant operations, device integrations and the local-agent/offline path. The product is used in **200+ branches**.
+
+[Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Backend](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend) · [Admin](https://github.com/archon1999/cafe-postcode-admin-frontend)
+
+## Products & engineering
+
+| Project | Engineering contribution | Explore |
+| --- | --- | --- |
+| **KEP.uz** | Programming workspaces, contests, learning and an isolated online judge. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Source](https://github.com/archon1999/kep-frontend) · [Website](https://kep.uz/) |
+| **HET Billing** | National electricity billing. Led 10 frontend engineers across connected applications. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/het-billing.md) · [Website](https://cabinet.het.uz/) |
+| **Nexa TMS AI** | Transport operations, dispatch, maintenance, payroll and financial reporting. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/nexa.md) · [Website](https://nexa-tms.ai/) |
+| **Cafe Postcode** | Restaurant POS, operations, devices and offline synchronization. Used in 200+ branches. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Source](https://github.com/archon1999/cafe-postcode-backend) · [Website](https://cafe-postcode.uz/) |
+| **Energo Nazorat** | Energy monitoring and reporting, with Angular interfaces and Django services. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/energo-nazorat.md) |
+| **Smart Billing 360** | Hot-water, cold-water and electricity billing for buildings and apartments in Germany. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/smart-billing-360.md) |
+| **KuyLab** | A piano learning studio with MIDI playback, score visualization and guided practice. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Source](https://github.com/archon1999/kuylab) · [Website](https://kuylab.uz/) |
+| **Deenly** | Arabic learning, a library, calendar and reminders across the web and Telegram. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Source](https://github.com/archon1999/DeenlyBot) · [Website](https://deenly.uz/) |
+| **IOI 2026** | Contestant Linux environments, virtual machines, debugging and offline resources. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Website](https://ioi2026.uz/) |
+| **cp.uz** | Uzbek algorithms reference, learning paths and olympiad archives. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cp-uz.md) · [Source](https://github.com/cp-uz/cp-uz) · [Website](https://cp.uz/) |
+| **KEPScience** | Interactive science: articles, concept maps, models and educational games. In development. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kepscience.md) · [Website](https://kep.science.uz/) |
+
+[Architecture notes and all 11 projects](https://github.com/archon1999/engineering-portfolio)
+
+<details>
+<summary>Teams & responsibility</summary>
+
+**Newmax Group LLC:** Nexa TMS AI, Frontend Lead → Senior Full-Stack. **UZINFOCOM:** HET Billing frontend leadership and Energo Nazorat full-stack engineering. **K-Tech (Khorezm Tech):** Smart Billing 360 frontend. **IOI 2026:** HSC technical contribution.
+
+</details>
+
+## Engineering toolkit
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit-dark.svg"><img src="assets/toolkit-light.svg" alt="React, TypeScript, Angular, MUI, Python, Django, FastAPI, Go, PostgreSQL, Redis, Docker, Linux, Git and C++" width="100%"></picture>
+
+**Interfaces:** React · Angular · TypeScript · MUI · Figma<br>
+**Services & data:** Django/DRF · FastAPI · Go · PostgreSQL · Redis<br>
+**Infrastructure & automation:** Docker · Linux · Nginx · CI/CD · Selenium · bots<br>
+**Foundations:** C++ · algorithms · data structures
 
 ## Competitive programming
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/codeforces-dark.svg"><img src="assets/codeforces-light.svg" alt="Codeforces rating history for Odminbey" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/yandex-journey-dark.svg"><img src="assets/yandex-journey-light.svg" alt="Yandex Cup: semifinal in 2023, seventh in the 2024 final, Frontend winner in 2025" width="100%"></picture>
 
-| Result | Evidence |
+| Season | Result |
 | --- | --- |
-| **Yandex Cup 2025 — 1st, Frontend main category** | [Official leaderboard](https://new.contest.yandex.com/contests/86107/leaderboard) |
-| **Codeforces Master — peak 2157** | [Odminbey](https://codeforces.com/profile/Odminbey) |
-| **ICPC Uzbekistan Subregional 2018 — 1st, team** | [Official standings](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) |
-| **ICPC Uzbekistan & Tajikistan Regional 2020 — 1st, team** | [Official standings](https://official.contest.yandex.ru/uz2020/contest/23207/standings/) |
-| **ICPC Uzbekistan 2019 — 2nd, team** | [Official standings](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) |
+| 2023 | Semifinalist |
+| 2024 | 7th in the final |
+| [2025](https://new.contest.yandex.com/contests/86107/leaderboard) | **Frontend winner** |
 
-[Algorithms and C++ templates](https://github.com/archon1999/competitive-programming)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/codeforces-dark.svg"><img src="assets/codeforces-light.svg" alt="Odminbey — rated Codeforces contest history" width="100%"></picture>
 
-## Engineering focus
+<details>
+<summary>More competition results</summary>
 
-- Clear domain boundaries and typed contracts between UI, services and storage.
-- Correct state transitions, permissions, monetary calculations and retry behavior.
-- Products that remain understandable across English, Uzbek and Russian.
-- Shipping the full path: interface, backend, deployment and operational recovery.
+| Competition | Result |
+| --- | --- |
+| [Robocoders 2019](https://kun.uz/ru/news/2019/02/24/v-uzbekistane-opredelili-pobediteley-finalnogo-tura-konkursa-robocoders-2019) | 1st · youth category |
+| [IT Park Cup 2020](https://it-park.uz/ru/itpark/news/pobediteli-chempionata-po-sportivnomu-programmirovaniyu-s-prizovym-fondom-v-30-000) | 2nd · Division A |
+| [ICPC Uzbekistan 2018](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) | 1st · team |
+| [ICPC Uzbekistan & Tajikistan 2020](https://official.contest.yandex.ru/uz2020/contest/23207/standings/) | 1st · team |
+| [ICPC Uzbekistan 2019](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) | 2nd · team |
 
-**Frontend:** React · Angular · TypeScript · MUI  
-**Backend:** Python · Django/DRF · FastAPI · Go · PostgreSQL · Redis  
-**Delivery:** Docker · Linux · Nginx · CI/CD  
-**Foundations:** C++ · algorithms · data structures
+</details>
+
+[C++ / Algorithms](https://github.com/archon1999/competitive-programming) · [Codeforces / Odminbey](https://codeforces.com/profile/Odminbey)
+
+## GitHub activity
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg"><img src="assets/github-stats-light.svg" alt="GitHub statistics" width="49%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages in public source repositories" width="49%"></picture>
+</p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="GitHub contribution calendar" width="100%"></picture>
+
+<details>
+<summary>Contribution streaks</summary>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" alt="GitHub contribution streaks — Asia/Tashkent" width="100%"></picture>
+
+</details>
+
+<sub>GitHub cards use public repository data; languages measure source bytes. Contribution counts can include private activity totals. [Tools & data scope](PROFILE-ASSETS.md).</sub>
 
 ## Connect
 

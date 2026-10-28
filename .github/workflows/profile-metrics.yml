@@ -8,6 +8,8 @@ on:
     branches: [main]
     paths:
       - scripts/update_metrics.py
+      - scripts/update_products.py
+      - scripts/test_update_products.py
       - .github/workflows/profile-metrics.yml
 
 permissions:
@@ -31,6 +33,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/update_metrics.py
+      - name: Verify public product snapshot behavior
+        run: python3 -m unittest discover -s scripts -p test_update_products.py
+      - name: Refresh KEP public platform statistics
+        run: python3 scripts/update_products.py
       - name: Generate stats card (dark)
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2 renderer
         with:
@@ -84,18 +90,18 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           import xml.etree.ElementTree as ET
-          for name in ['github-stats', 'languages', 'streak', 'activity', 'codeforces']:
+          for name in ['github-stats', 'languages', 'streak', 'activity', 'codeforces', 'kep-overview']:
               for theme in ['dark', 'light']:
                   path = Path(f'assets/{name}-{theme}.svg')
                   source = path.read_text(encoding='utf-8')
                   root = ET.fromstring(source)
                   assert root.tag.endswith('svg'), f'Invalid SVG: {path}'
                   assert not any(error in source.lower() for error in ['something went wrong', 'could not fetch', 'error fetching']), f'Error card: {path}'
-          print('All ten profile cards are valid SVGs.')
+          print('All twelve generated profile cards are valid SVGs.')
           PY
       - name: Save refreshed SVGs
         run: |
-          git add assets/*-dark.svg assets/*-light.svg data/metrics.json
+          git add assets/*-dark.svg assets/*-light.svg data/metrics.json data/products.json
           if git diff --cached --quiet; then
             echo "The profile charts are already current."
             exit 0

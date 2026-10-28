@@ -81,13 +81,26 @@ Built Cafe Postcode end to end: POS, restaurant operations, device integrations 
 | --- | --- |
 | [Robocoders 2019](https://kun.uz/ru/news/2019/02/24/v-uzbekistane-opredelili-pobediteley-finalnogo-tura-konkursa-robocoders-2019) | 1st · youth category |
 | [IT Park Cup 2020](https://it-park.uz/ru/itpark/news/pobediteli-chempionata-po-sportivnomu-programmirovaniyu-s-prizovym-fondom-v-30-000) | 2nd · Division A |
-| [ICPC Uzbekistan 2018](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) | 1st · team |
-| [ICPC Uzbekistan & Tajikistan 2020](https://official.contest.yandex.ru/uz2020/contest/23207/standings/) | 1st · team |
-| [ICPC Uzbekistan 2019](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) | 2nd · team |
+
+| [Education Quality Inspectorate · 2020](https://t.me/uztdi/1065) | 2nd · student category · 7 solved |
+| [ICPC Uzbekistan · 2017–2018](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) | 1st · team |
+| [ICPC Uzbekistan · 2018–2019](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) | 2nd · team |
+| [ICPC Uzbekistan & Tajikistan · 2019–2020](https://official.contest.yandex.ru/uz2020/contest/23207/standings/) | 1st · team |
 
 </details>
 
 [C++ / Algorithms](https://github.com/archon1999/competitive-programming) · [Codeforces / Odminbey](https://codeforces.com/profile/Odminbey)
+
+## Olympiad organization
+
+Contest organization and technical delivery through KEP.uz and partner events.
+
+| Event | Contribution & scope |
+| --- | --- |
+| [KEP Junior Algorithmics · 2024](https://t.me/KEPuzChannel/1156) | Organizer · 200+ participants; two qualifiers and a final in Khorezm, July 2024. |
+| [REVO CUP · 2025](https://revolution.uz/uz/blog/revo-cup-2025-programming-and-cybersecurity-contest) | Co-organizer with REVO Global · programming and CTF; online qualifiers and an offline final in Urgench, April 2025. |
+
+[Event record & primary sources](https://github.com/archon1999/engineering-portfolio/blob/main/community/olympiads.md)
 
 ## GitHub activity
 

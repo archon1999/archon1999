@@ -81,13 +81,26 @@ Cafe Postcode’ni to‘liq bir o‘zim yaratganman: POS, restoran jarayonlari, 
 | --- | --- |
 | [Robocoders 2019](https://kun.uz/ru/news/2019/02/24/v-uzbekistane-opredelili-pobediteley-finalnogo-tura-konkursa-robocoders-2019) | 1-o‘rin · yoshlar yo‘nalishi |
 | [IT Park Cup 2020](https://it-park.uz/ru/itpark/news/pobediteli-chempionata-po-sportivnomu-programmirovaniyu-s-prizovym-fondom-v-30-000) | 2-o‘rin · A divizioni |
-| [ICPC Uzbekistan 2018](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) | 1-o‘rin · jamoa |
-| [ICPC Uzbekistan & Tajikistan 2020](https://official.contest.yandex.ru/uz2020/contest/23207/standings/) | 1-o‘rin · jamoa |
-| [ICPC Uzbekistan 2019](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) | 2-o‘rin · jamoa |
+
+| [Ta’lim sifatini nazorat qilish inspeksiyasi · 2020](https://t.me/uztdi/1065) | 2-o‘rin · talabalar · 7 ta masala |
+| [ICPC Uzbekistan · 2017–2018](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) | 1-o‘rin · jamoa |
+| [ICPC Uzbekistan · 2018–2019](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) | 2-o‘rin · jamoa |
+| [ICPC Uzbekistan & Tajikistan · 2019–2020](https://official.contest.yandex.ru/uz2020/contest/23207/standings/) | 1-o‘rin · jamoa |
 
 </details>
 
 [C++ / Algoritmlar](https://github.com/archon1999/competitive-programming) · [Codeforces / Odminbey](https://codeforces.com/profile/Odminbey)
+
+## Olimpiadalar tashkilotchiligi
+
+KEP.uz va hamkor tadbirlarda musobaqalarni tashkil etish hamda texnik ta’minot.
+
+| Tadbir | Hissa va ko‘lam |
+| --- | --- |
+| [KEP Junior Algorithmics · 2024](https://t.me/KEPuzChannel/1156) | Tashkilotchi · 200+ ishtirokchi; ikki saralash va Xorazmdagi final, 2024-yil iyul. |
+| [REVO CUP · 2025](https://revolution.uz/uz/blog/revo-cup-2025-programming-and-cybersecurity-contest) | REVO Global bilan hamkor tashkilotchi · sport dasturlash va CTF; onlayn saralashlar va Urganchdagi oflayn final, 2025-yil aprel. |
+
+[Tadbirlar va birlamchi manbalar](https://github.com/archon1999/engineering-portfolio/blob/main/community/olympiads.md)
 
 ## GitHub faolligi
 

@@ -2,7 +2,9 @@
 
 ## Artwork
 
-The NB banner, achievement badges, product diagrams and technology board are local, theme-aware SVG assets. Inter and Alpha Lyrae glyphs in the large headings are converted to paths, so GitHub renders the typography without external font requests. Their SIL Open Font Licenses are included in `assets/licenses/`.
+The NB banner, achievement cards, product diagrams and technology board are local, theme-aware SVG assets. Static labels use outlined Inter and JetBrains Mono; large headings include a few Alpha Lyrae glyphs. Typography renders consistently without external font requests. Live platform counters remain text so the daily workflow can refresh them. The SIL Open Font Licenses are included in `assets/licenses/`.
+
+Achievement cards use a trophy, the Codeforces bars and the original KEP mark. Dark and light variants share the same dimensions and hierarchy. The Codeforces badge records the peak rating; the history chart provides dated rating data.
 
 Technology marks come from [Simple Icons](https://github.com/simple-icons/simple-icons), distributed under CC0. Product marks and company names retain their respective owners’ rights. The illustrations describe engineering boundaries; they are not application screenshots.
 

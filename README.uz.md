@@ -81,7 +81,6 @@ Cafe Postcode’ni to‘liq bir o‘zim yaratganman: POS, restoran jarayonlari, 
 | --- | --- |
 | [Robocoders 2019](https://kun.uz/ru/news/2019/02/24/v-uzbekistane-opredelili-pobediteley-finalnogo-tura-konkursa-robocoders-2019) | 1-o‘rin · yoshlar yo‘nalishi |
 | [IT Park Cup 2020](https://it-park.uz/ru/itpark/news/pobediteli-chempionata-po-sportivnomu-programmirovaniyu-s-prizovym-fondom-v-30-000) | 2-o‘rin · A divizioni |
-
 | [Ta’lim sifatini nazorat qilish inspeksiyasi · 2020](https://t.me/uztdi/1065) | 2-o‘rin · talabalar · 7 ta masala |
 | [ICPC Uzbekistan · 2017–2018](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) | 1-o‘rin · jamoa |
 | [ICPC Uzbekistan · 2018–2019](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) | 2-o‘rin · jamoa |

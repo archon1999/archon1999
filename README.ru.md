@@ -81,7 +81,6 @@
 | --- | --- |
 | [Robocoders 2019](https://kun.uz/ru/news/2019/02/24/v-uzbekistane-opredelili-pobediteley-finalnogo-tura-konkursa-robocoders-2019) | 1-е место · молодёжная категория |
 | [IT Park Cup 2020](https://it-park.uz/ru/itpark/news/pobediteli-chempionata-po-sportivnomu-programmirovaniyu-s-prizovym-fondom-v-30-000) | 2-е место · дивизион A |
-
 | [Инспекция по контролю качества образования · 2020](https://t.me/uztdi/1065) | 2-е место · студенты · 7 задач |
 | [ICPC Uzbekistan · 2017–2018](https://neerc.ifmo.ru/archive/2018/uzbekistan/standings.html) | 1-е место · команда |
 | [ICPC Uzbekistan · 2018–2019](https://neerc.ifmo.ru/archive/2019/uzbekistan/standings.html) | 2-е место · команда |

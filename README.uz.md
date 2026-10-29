@@ -18,7 +18,7 @@ Dasturiy tizimlar — arxitekturadan amaliy yechimgacha: mahsulot interfeyslari,
 
 KEP.uz asoschisi: React ish maydoni, Django xizmatlari va online judge infratuzilmasi. Platformaning ochiq statistikasi KEP.uz’dan yangilanadi.
 
-[Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Kod](https://github.com/archon1999/kep-frontend) · [Sayt](https://kep.uz/) · [Ma’lumotlar](data/products.json)
+[Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Kod](https://github.com/archon1999/kep-frontend) · [Tizim xaritasi](https://github.com/users/archon1999/projects/1) · [Sayt](https://kep.uz/) · [Ma’lumotlar](data/products.json)
 
 ## Restoran tizimlari
 

@@ -18,7 +18,7 @@
 
 Основатель KEP.uz: React-пространство, сервисы Django и инфраструктура online judge. Публичная статистика платформы обновляется из KEP.uz.
 
-[О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Код](https://github.com/archon1999/kep-frontend) · [Сайт](https://kep.uz/) · [Данные](data/products.json)
+[О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Код](https://github.com/archon1999/kep-frontend) · [Карта системы](https://github.com/users/archon1999/projects/1) · [Сайт](https://kep.uz/) · [Данные](data/products.json)
 
 ## Ресторанные системы
 

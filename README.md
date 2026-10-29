@@ -18,7 +18,7 @@ Software systems, from architecture to implementation: product interfaces, backe
 
 Founded and built KEP.uz across the React workspace, Django services and online-judge infrastructure. Public platform statistics are refreshed from KEP.uz.
 
-[Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Source](https://github.com/archon1999/kep-frontend) · [Website](https://kep.uz/) · [Data](data/products.json)
+[Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Source](https://github.com/archon1999/kep-frontend) · [System map](https://github.com/users/archon1999/projects/1) · [Website](https://kep.uz/) · [Data](data/products.json)
 
 ## Restaurant systems
 

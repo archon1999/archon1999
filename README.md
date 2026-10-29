@@ -26,7 +26,7 @@ Founded and built KEP.uz across the React workspace, Django services and online-
 
 Built Cafe Postcode end to end: POS, restaurant operations, device integrations and the local-agent/offline path. The product is used in **200+ branches**.
 
-[Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Backend](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend) · [Admin](https://github.com/archon1999/cafe-postcode-admin-frontend)
+[Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md)
 
 ## Products & engineering
 
@@ -35,16 +35,17 @@ Built Cafe Postcode end to end: POS, restaurant operations, device integrations 
 | **KEP.uz** | Programming workspaces, contests, learning and an isolated online judge. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Source](https://github.com/archon1999/kep-frontend) · [Website](https://kep.uz/) |
 | **HET Billing** | National electricity billing. Led 10 frontend engineers across connected applications. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/het-billing.md) · [Website](https://cabinet.het.uz/) |
 | **Nexa TMS AI** | Transport operations, dispatch, maintenance, payroll and financial reporting. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/nexa.md) · [Website](https://nexa-tms.ai/) |
-| **Cafe Postcode** | Restaurant POS, operations, devices and offline synchronization. Used in 200+ branches. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Source](https://github.com/archon1999/cafe-postcode-backend) · [Website](https://cafe-postcode.uz/) |
+| **Cafe Postcode** | Restaurant POS, operations, devices and offline synchronization. Used in 200+ branches. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Website](https://cafe-postcode.uz/) |
 | **Energo Nazorat** | Energy monitoring and reporting, with Angular interfaces and Django services. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/energo-nazorat.md) |
 | **Smart Billing 360** | Hot-water, cold-water and electricity billing for buildings and apartments in Germany. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/smart-billing-360.md) |
-| **KuyLab** | A piano learning studio with MIDI playback, score visualization and guided practice. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Source](https://github.com/archon1999/kuylab) · [Website](https://kuylab.uz/) |
-| **Deenly** | Arabic learning, a library, calendar and reminders across the web and Telegram. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Source](https://github.com/archon1999/DeenlyBot) · [Website](https://deenly.uz/) |
 | **IOI 2026** | Contestant Linux environments, virtual machines, debugging and offline resources. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Website](https://ioi2026.uz/) |
 | **cp.uz** | Uzbek algorithms reference, learning paths and olympiad archives. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cp-uz.md) · [Source](https://github.com/cp-uz/cp-uz) · [Website](https://cp.uz/) |
-| **KEPScience** | Interactive science: articles, concept maps, models and educational games. In development. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kepscience.md) · [Website](https://kep.science.uz/) |
+| **KuyLab** | A piano learning studio with MIDI playback, score visualization and guided practice. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Source](https://github.com/archon1999/kuylab) · [Website](https://kuylab.uz/) |
+| **Deenly** | Arabic learning, a library, calendar and reminders across the web and Telegram. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Source](https://github.com/archon1999/DeenlyBot) · [Website](https://deenly.uz/) |
+| **KEPScience** | Interactive science: articles, concept maps, models and educational games. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kepscience.md) · [Website](https://science.kep.uz/) |
+| **Rokirovka.uz** | Uzbek chess lessons, tactical puzzles, games, tournaments and Stockfish analysis. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/rokirovka.md) · [Source](https://github.com/archon1999/rokirovka) · [Website](https://rokirovka.uz/) |
 
-[Architecture notes and all 11 projects](https://github.com/archon1999/engineering-portfolio)
+[Architecture notes and all 12 projects](https://github.com/archon1999/engineering-portfolio)
 
 <details>
 <summary>Teams & responsibility</summary>

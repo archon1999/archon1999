@@ -26,7 +26,7 @@ KEP.uz asoschisi: React ish maydoni, Django xizmatlari va online judge infratuzi
 
 Cafe Postcode’ni to‘liq bir o‘zim yaratganman: POS, restoran jarayonlari, qurilma integratsiyalari va lokal agent orqali oflayn ish. Tizim **200+ shoxobchada** ishlaydi.
 
-[Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Backend](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend) · [Admin](https://github.com/archon1999/cafe-postcode-admin-frontend)
+[Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md)
 
 ## Loyihalar va muhandislik
 
@@ -35,16 +35,17 @@ Cafe Postcode’ni to‘liq bir o‘zim yaratganman: POS, restoran jarayonlari, 
 | **KEP.uz** | Dasturlash ish maydonlari, musobaqalar, ta’lim va ajratilgan online judge. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Kod](https://github.com/archon1999/kep-frontend) · [Sayt](https://kep.uz/) |
 | **HET Billing** | Respublika elektr billingi. Bog‘liq ilovalarda 10 frontend dasturchiga rahbarlik. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/het-billing.md) · [Sayt](https://cabinet.het.uz/) |
 | **Nexa TMS AI** | Transport operatsiyalari, dispetcherlik, texnik xizmat, ish haqi va moliyaviy hisobotlar. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/nexa.md) · [Sayt](https://nexa-tms.ai/) |
-| **Cafe Postcode** | Restoran POS’i, operatsiyalar, qurilmalar va oflayn sinxronlash. 200+ shoxobchada ishlaydi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Kod](https://github.com/archon1999/cafe-postcode-backend) · [Sayt](https://cafe-postcode.uz/) |
+| **Cafe Postcode** | Restoran POS’i, operatsiyalar, qurilmalar va oflayn sinxronlash. 200+ shoxobchada ishlaydi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Sayt](https://cafe-postcode.uz/) |
 | **Energo Nazorat** | Energetika monitoringi va hisobotlari: Angular interfeyslari va Django xizmatlari. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/energo-nazorat.md) |
 | **Smart Billing 360** | Germaniyadagi bino va xonadonlar uchun issiq suv, sovuq suv va elektr billingi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/smart-billing-360.md) |
-| **KuyLab** | MIDI ijrosi, vizual notalar va bosqichli mashqlar bilan pianino o‘rganish studiyasi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Kod](https://github.com/archon1999/kuylab) · [Sayt](https://kuylab.uz/) |
-| **Deenly** | Arab tili, kutubxona, taqvim va eslatmalar — veb hamda Telegram’da umumiy profil. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Kod](https://github.com/archon1999/DeenlyBot) · [Sayt](https://deenly.uz/) |
 | **IOI 2026** | Ishtirokchi Linux muhitlari, virtual mashinalar, debugging va oflayn resurslar. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Sayt](https://ioi2026.uz/) |
 | **cp.uz** | O‘zbekcha algoritmlar ma’lumotnomasi, o‘quv yo‘llari va olimpiada arxivi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cp-uz.md) · [Kod](https://github.com/cp-uz/cp-uz) · [Sayt](https://cp.uz/) |
-| **KEPScience** | Interaktiv fan: maqolalar, tushunchalar atlasi, modellar va o‘quv o‘yinlari. Ishlab chiqilmoqda. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kepscience.md) · [Sayt](https://kep.science.uz/) |
+| **KuyLab** | MIDI ijrosi, vizual notalar va bosqichli mashqlar bilan pianino o‘rganish studiyasi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Kod](https://github.com/archon1999/kuylab) · [Sayt](https://kuylab.uz/) |
+| **Deenly** | Arab tili, kutubxona, taqvim va eslatmalar — veb hamda Telegram’da umumiy profil. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Kod](https://github.com/archon1999/DeenlyBot) · [Sayt](https://deenly.uz/) |
+| **KEPScience** | Interaktiv fan: maqolalar, tushunchalar atlasi, modellar va o‘quv o‘yinlari. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kepscience.md) · [Sayt](https://science.kep.uz/) |
+| **Rokirovka.uz** | O‘zbekcha shaxmat darslari, taktik masalalar, o‘yinlar, turnirlar va Stockfish tahlili. | [Keys](https://github.com/archon1999/engineering-portfolio/blob/main/projects/rokirovka.md) · [Source](https://github.com/archon1999/rokirovka) · [Website](https://rokirovka.uz/) |
 
-[Arxitektura izohlari va barcha 11 loyiha](https://github.com/archon1999/engineering-portfolio)
+[Arxitektura izohlari va barcha 12 loyiha](https://github.com/archon1999/engineering-portfolio)
 
 <details>
 <summary>Jamoalar va mas’uliyat</summary>

@@ -26,7 +26,7 @@
 
 Самостоятельно создал Cafe Postcode: POS, ресторанные процессы, интеграции устройств и офлайн-работу через локальный агент. Система используется в **200+ филиалах**.
 
-[О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Backend](https://github.com/archon1999/cafe-postcode-backend) · [POS](https://github.com/archon1999/cafe-postcode-pos-frontend) · [Admin](https://github.com/archon1999/cafe-postcode-admin-frontend)
+[О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md)
 
 ## Проекты и инженерия
 
@@ -35,16 +35,17 @@
 | **KEP.uz** | Рабочие пространства, соревнования, обучение и изолированная проверка кода. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kep.md) · [Код](https://github.com/archon1999/kep-frontend) · [Сайт](https://kep.uz/) |
 | **HET Billing** | Национальный биллинг электроэнергии. Руководство 10 frontend-разработчиками. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/het-billing.md) · [Сайт](https://cabinet.het.uz/) |
 | **Nexa TMS AI** | Транспортные операции, диспетчеризация, обслуживание, расчёты и финансовые отчёты. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/nexa.md) · [Сайт](https://nexa-tms.ai/) |
-| **Cafe Postcode** | Ресторанный POS, операции, устройства и офлайн-синхронизация. Используется в 200+ филиалах. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Код](https://github.com/archon1999/cafe-postcode-backend) · [Сайт](https://cafe-postcode.uz/) |
+| **Cafe Postcode** | Ресторанный POS, операции, устройства и офлайн-синхронизация. Используется в 200+ филиалах. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Сайт](https://cafe-postcode.uz/) |
 | **Energo Nazorat** | Мониторинг энергетики и отчётность: интерфейсы Angular и сервисы Django. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/energo-nazorat.md) |
 | **Smart Billing 360** | Биллинг горячей и холодной воды, электроэнергии для зданий и квартир в Германии. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/smart-billing-360.md) |
-| **KuyLab** | Обучение фортепиано: MIDI, визуализация нот и пошаговая практика. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Код](https://github.com/archon1999/kuylab) · [Сайт](https://kuylab.uz/) |
-| **Deenly** | Арабский язык, библиотека, календарь и напоминания в вебе и Telegram. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Код](https://github.com/archon1999/DeenlyBot) · [Сайт](https://deenly.uz/) |
 | **IOI 2026** | Linux-окружения участников, виртуальные машины, отладка и офлайн-ресурсы. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Сайт](https://ioi2026.uz/) |
 | **cp.uz** | Справочник алгоритмов на узбекском языке, учебные маршруты и архив олимпиад. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cp-uz.md) · [Код](https://github.com/cp-uz/cp-uz) · [Сайт](https://cp.uz/) |
-| **KEPScience** | Интерактивная наука: статьи, атлас понятий, модели и учебные игры. В разработке. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kepscience.md) · [Сайт](https://kep.science.uz/) |
+| **KuyLab** | Обучение фортепиано: MIDI, визуализация нот и пошаговая практика. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Код](https://github.com/archon1999/kuylab) · [Сайт](https://kuylab.uz/) |
+| **Deenly** | Арабский язык, библиотека, календарь и напоминания в вебе и Telegram. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Код](https://github.com/archon1999/DeenlyBot) · [Сайт](https://deenly.uz/) |
+| **KEPScience** | Интерактивная наука: статьи, атлас понятий, модели и учебные игры. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kepscience.md) · [Сайт](https://science.kep.uz/) |
+| **Rokirovka.uz** | Уроки шахмат на узбекском, тактические задачи, игры, турниры и анализ Stockfish. | [Кейс](https://github.com/archon1999/engineering-portfolio/blob/main/projects/rokirovka.md) · [Source](https://github.com/archon1999/rokirovka) · [Website](https://rokirovka.uz/) |
 
-[Архитектура и все 11 проектов](https://github.com/archon1999/engineering-portfolio)
+[Архитектура и все 12 проектов](https://github.com/archon1999/engineering-portfolio)
 
 <details>
 <summary>Команды и ответственность</summary>

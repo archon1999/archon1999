@@ -3,12 +3,12 @@
   "updatedUtc": "2026-10-29",
   "repositoryScope": "Public original owned repositories; language bytes exclude archived repositories",
   "contributionScope": "GitHub contribution counts may include restricted/private activity counts; no private repository details",
-  "repositories": 50,
+  "repositories": 46,
   "followers": 40,
   "stars": 11,
-  "contributions": 3797,
-  "commits": 622,
-  "pullRequests": 66,
+  "contributions": 3820,
+  "commits": 440,
+  "pullRequests": 44,
   "activeDays": 247,
   "days": [
     {
@@ -2221,27 +2221,26 @@
     },
     {
       "date": "2026-10-29",
-      "contributionCount": 53,
-      "contributionLevel": "FIRST_QUARTILE",
+      "contributionCount": 76,
+      "contributionLevel": "SECOND_QUARTILE",
       "weekday": 4
     }
   ],
   "languages": {
-    "TypeScript": 11049954,
-    "JavaScript": 8259047,
-    "Python": 7173060,
+    "TypeScript": 8626344,
+    "JavaScript": 8247921,
+    "Python": 6121411,
     "SCSS": 4264480,
-    "CSS": 3988515,
-    "HTML": 3609602,
-    "Rust": 178818,
+    "CSS": 4155754,
+    "HTML": 3567317,
     "Jupyter Notebook": 104065,
     "C++": 79549,
+    "Shell": 26464,
     "Java": 20642,
-    "Shell": 16306,
     "C": 13741,
-    "Dockerfile": 5993,
-    "Makefile": 748,
-    "PowerShell": 714
+    "PowerShell": 5979,
+    "Dockerfile": 5344,
+    "Makefile": 748
   },
   "ratings": [
     {

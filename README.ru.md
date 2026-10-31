@@ -38,7 +38,7 @@
 | **Cafe Postcode** | Ресторанный POS, операции, устройства и офлайн-синхронизация. Используется в 200+ филиалах. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Сайт](https://cafe-postcode.uz/) |
 | **Energo Nazorat** | Мониторинг энергетики и отчётность: интерфейсы Angular и сервисы Django. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/energo-nazorat.md) |
 | **Smart Billing 360** | Биллинг горячей и холодной воды, электроэнергии для зданий и квартир в Германии. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/smart-billing-360.md) |
-| **IOI 2026** | Linux-окружения участников, виртуальные машины, отладка и офлайн-ресурсы. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Сайт](https://ioi2026.uz/) |
+| **IOI 2026** | Участник HTC: Linux-окружения участников, виртуальные машины, отладка и офлайн-ресурсы. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Сайт](https://ioi2026.uz/) |
 | **cp.uz** | Справочник алгоритмов на узбекском языке, учебные маршруты и архив олимпиад. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cp-uz.md) · [Код](https://github.com/cp-uz/cp-uz) · [Сайт](https://cp.uz/) |
 | **KuyLab** | Обучение фортепиано: MIDI, визуализация нот и пошаговая практика. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Код](https://github.com/archon1999/kuylab) · [Сайт](https://kuylab.uz/) |
 | **Deenly** | Арабский язык, библиотека, календарь и напоминания в вебе и Telegram. | [О проекте](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Код](https://github.com/archon1999/DeenlyBot) · [Сайт](https://deenly.uz/) |
@@ -50,7 +50,7 @@
 <details>
 <summary>Команды и ответственность</summary>
 
-**Newmax Group LLC:** Nexa TMS AI, Frontend Lead → Senior Full-Stack. **UZINFOCOM:** руководство frontend в HET Billing и full-stack работа над Energo Nazorat. **K-Tech (Khorezm Tech):** frontend Smart Billing 360. **IOI 2026:** технический вклад в составе HSC.
+**Newmax Group LLC:** Nexa TMS AI, Frontend Lead → Senior Full-Stack. **UZINFOCOM:** руководство frontend в HET Billing и full-stack работа над Energo Nazorat. **K-Tech (Khorezm Tech):** frontend Smart Billing 360. **Центр развития цифрового образования:** участник Host Technical Committee (HTC) IOI 2026, техническая работа по договору.
 
 </details>
 

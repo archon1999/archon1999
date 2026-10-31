@@ -38,7 +38,7 @@ Built Cafe Postcode end to end: POS, restaurant operations, device integrations 
 | **Cafe Postcode** | Restaurant POS, operations, devices and offline synchronization. Used in 200+ branches. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Website](https://cafe-postcode.uz/) |
 | **Energo Nazorat** | Energy monitoring and reporting, with Angular interfaces and Django services. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/energo-nazorat.md) |
 | **Smart Billing 360** | Hot-water, cold-water and electricity billing for buildings and apartments in Germany. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/smart-billing-360.md) |
-| **IOI 2026** | Contestant Linux environments, virtual machines, debugging and offline resources. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Website](https://ioi2026.uz/) |
+| **IOI 2026** | HTC member: contestant Linux environments, virtual machines, debugging and offline resources. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Website](https://ioi2026.uz/) |
 | **cp.uz** | Uzbek algorithms reference, learning paths and olympiad archives. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cp-uz.md) · [Source](https://github.com/cp-uz/cp-uz) · [Website](https://cp.uz/) |
 | **KuyLab** | A piano learning studio with MIDI playback, score visualization and guided practice. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Source](https://github.com/archon1999/kuylab) · [Website](https://kuylab.uz/) |
 | **Deenly** | Arabic learning, a library, calendar and reminders across the web and Telegram. | [Case study](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Source](https://github.com/archon1999/DeenlyBot) · [Website](https://deenly.uz/) |
@@ -50,7 +50,7 @@ Built Cafe Postcode end to end: POS, restaurant operations, device integrations 
 <details>
 <summary>Teams & responsibility</summary>
 
-**Newmax Group LLC:** Nexa TMS AI, Frontend Lead → Senior Full-Stack. **UZINFOCOM:** HET Billing frontend leadership and Energo Nazorat full-stack engineering. **K-Tech (Khorezm Tech):** Smart Billing 360 frontend. **IOI 2026:** HSC technical contribution.
+**Newmax Group LLC:** Nexa TMS AI, Frontend Lead → Senior Full-Stack. **UZINFOCOM:** HET Billing frontend leadership and Energo Nazorat full-stack engineering. **K-Tech (Khorezm Tech):** Smart Billing 360 frontend. **Digital Education Development Center:** IOI 2026 Host Technical Committee (HTC) member, contract-based technical work.
 
 </details>
 

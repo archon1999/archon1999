@@ -38,7 +38,7 @@ Cafe Postcode’ni to‘liq bir o‘zim yaratganman: POS, restoran jarayonlari, 
 | **Cafe Postcode** | Restoran POS’i, operatsiyalar, qurilmalar va oflayn sinxronlash. 200+ shoxobchada ishlaydi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cafe-postcode.md) · [Sayt](https://cafe-postcode.uz/) |
 | **Energo Nazorat** | Energetika monitoringi va hisobotlari: Angular interfeyslari va Django xizmatlari. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/energo-nazorat.md) |
 | **Smart Billing 360** | Germaniyadagi bino va xonadonlar uchun issiq suv, sovuq suv va elektr billingi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/smart-billing-360.md) |
-| **IOI 2026** | Ishtirokchi Linux muhitlari, virtual mashinalar, debugging va oflayn resurslar. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Sayt](https://ioi2026.uz/) |
+| **IOI 2026** | HTC a’zosi: ishtirokchi Linux muhitlari, virtual mashinalar, debugging va oflayn resurslar. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/ioi-2026.md) · [Sayt](https://ioi2026.uz/) |
 | **cp.uz** | O‘zbekcha algoritmlar ma’lumotnomasi, o‘quv yo‘llari va olimpiada arxivi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/cp-uz.md) · [Kod](https://github.com/cp-uz/cp-uz) · [Sayt](https://cp.uz/) |
 | **KuyLab** | MIDI ijrosi, vizual notalar va bosqichli mashqlar bilan pianino o‘rganish studiyasi. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/kuylab.md) · [Kod](https://github.com/archon1999/kuylab) · [Sayt](https://kuylab.uz/) |
 | **Deenly** | Arab tili, kutubxona, taqvim va eslatmalar — veb hamda Telegram’da umumiy profil. | [Loyiha haqida](https://github.com/archon1999/engineering-portfolio/blob/main/projects/deenly.md) · [Kod](https://github.com/archon1999/DeenlyBot) · [Sayt](https://deenly.uz/) |
@@ -50,7 +50,7 @@ Cafe Postcode’ni to‘liq bir o‘zim yaratganman: POS, restoran jarayonlari, 
 <details>
 <summary>Jamoalar va mas’uliyat</summary>
 
-**Newmax Group LLC:** Nexa TMS AI, Frontend Lead → Senior Full-Stack. **UZINFOCOM:** HET Billing frontend yetakchiligi va Energo Nazorat full-stack ishlari. **K-Tech (Khorezm Tech):** Smart Billing 360 frontend. **IOI 2026:** HSC tarkibida texnik hissa.
+**Newmax Group LLC:** Nexa TMS AI, Frontend Lead → Senior Full-Stack. **UZINFOCOM:** HET Billing frontend yetakchiligi va Energo Nazorat full-stack ishlari. **K-Tech (Khorezm Tech):** Smart Billing 360 frontend. **Raqamli ta’limni rivojlantirish markazi:** IOI 2026 Host Technical Committee (HTC) a’zosi, shartnoma asosidagi texnik ishlar.
 
 </details>
 

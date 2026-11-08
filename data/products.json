@@ -1,13 +1,13 @@
 {
   "source": "https://kep.uz/api/landing-page-statistics",
-  "observedUtc": "2026-11-07T10:40:10.950112+00:00",
-  "displayDate": "2026-11-07",
+  "observedUtc": "2026-11-08T10:44:41.936787+00:00",
+  "displayDate": "2026-11-08",
   "timezone": "Asia/Tashkent",
   "metrics": {
-    "users": 9589,
+    "users": 9600,
     "problems": 2101,
     "competitions": 375,
-    "attempts": 437226
+    "attempts": 437385
   },
   "scope": {
     "users": "registered users",
